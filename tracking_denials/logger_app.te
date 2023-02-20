@@ -1,4 +1,4 @@
-# b/264489961
+# b/269383459
 userdebug_or_eng(`
-  permissive logger_app;
+  dontaudit logger_app default_prop:file { read };
 ')
