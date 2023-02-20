@@ -22,3 +22,9 @@ dontaudit systemui_app touch_context_service:service_manager { find };
 dontaudit systemui_app twoshay:binder { call };
 dontaudit systemui_app vr_manager_service:service_manager { find };
 dontaudit systemui_app service_manager_type:service_manager *;
+# b/269813282
+dontaudit systemui_app bootanim_system_prop:property_service { set };
+dontaudit systemui_app init:unix_stream_socket { connectto };
+dontaudit systemui_app property_socket:sock_file { write };
+dontaudit systemui_app qemu_hw_prop:file { read };
+dontaudit systemui_app twoshay:binder { transfer };

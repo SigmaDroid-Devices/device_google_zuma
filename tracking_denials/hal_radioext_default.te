@@ -1,0 +1,2 @@
+# b/269813076
+dontaudit hal_radioext_default hal_bluetooth_btlinux:binder { call };
