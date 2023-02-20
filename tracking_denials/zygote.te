@@ -1,2 +1,0 @@
-# b/269812912
-dontaudit zygote vendor_cccdktimesync_app:process { dyntransition };
