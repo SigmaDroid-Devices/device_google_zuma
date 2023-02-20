@@ -1,4 +1,0 @@
-# b/264490054
-userdebug_or_eng(`
-  permissive proc_vendor_sched;
-')
