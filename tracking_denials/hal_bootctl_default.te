@@ -1,7 +1,3 @@
-# b/264489609
-userdebug_or_eng(`
-  permissive hal_bootctl_default;
-')
 # b/267843310
 dontaudit hal_bootctl_default hal_bootctl_default:capability { dac_override };
 dontaudit hal_bootctl_default tee_device:chr_file { ioctl };
