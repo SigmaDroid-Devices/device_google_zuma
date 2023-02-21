@@ -25,5 +25,15 @@ servicemanager hal_fingerprint_default binder b/264483753
 ssr_detector_app system_app_data_file dir b/264483352
 ssr_detector_app system_app_data_file file b/264483352
 system_server default_android_service service_manager b/264483754
+systemui_app bootanim_system_prop property_service b/269964574
+systemui_app hal_googlebattery binder b/269964574
+systemui_app init unix_stream_socket b/269964574
+systemui_app property_socket sock_file b/269964574
+systemui_app qemu_hw_prop file b/269964574
+systemui_app twoshay binder b/269964574
+twoshay systemui_app binder b/269964558
 untrusted_app default_android_service service_manager b/264599934
+vendor_init device_config_configuration_prop property_service b/267714573
 vendor_init device_config_configuration_prop property_service b/268566481
+vendor_init vendor_camera_prop property_service b/267714573
+zygote vendor_cccdktimesync_app process b/269812912
