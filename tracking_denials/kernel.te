@@ -1,9 +1,7 @@
 # b/260522245
-dontaudit kernel same_process_hal_file:file { open };
-dontaudit kernel same_process_hal_file:file { read };
+allow kernel same_process_hal_file:file r_file_perms;
 dontaudit kernel vendor_regmap_debugfs:dir { search };
 # b/262794429
-dontaudit kernel same_process_hal_file:file { getattr };
 dontaudit kernel sepolicy_file:file { getattr };
 dontaudit kernel system_bootstrap_lib_file:dir { getattr };
 dontaudit kernel system_bootstrap_lib_file:file { getattr };
