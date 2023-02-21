@@ -8,7 +8,3 @@ dontaudit kernel system_bootstrap_lib_file:file { getattr };
 dontaudit kernel system_dlkm_file:dir { getattr };
 # b/263185161
 dontaudit kernel kernel:capability { net_bind_service };
-# b/264490052
-userdebug_or_eng(`
-  permissive kernel;
-')
