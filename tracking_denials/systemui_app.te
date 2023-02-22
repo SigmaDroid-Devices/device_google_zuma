@@ -18,7 +18,6 @@ dontaudit systemui_app qemu_hw_prop:file { getattr };
 dontaudit systemui_app qemu_hw_prop:file { map };
 dontaudit systemui_app qemu_hw_prop:file { open };
 dontaudit systemui_app radio_service:service_manager { find };
-dontaudit systemui_app touch_context_service:service_manager { find };
 dontaudit systemui_app twoshay:binder { call };
 dontaudit systemui_app vr_manager_service:service_manager { find };
 dontaudit systemui_app service_manager_type:service_manager *;
