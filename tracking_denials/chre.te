@@ -1,17 +1,6 @@
-# b/260522435
-dontaudit chre aoc_device:chr_file { getattr };
-dontaudit chre aoc_device:chr_file { open };
-dontaudit chre aoc_device:chr_file { read write };
-dontaudit chre chre:capability2 { block_suspend };
-dontaudit chre device:dir { read };
-dontaudit chre device:dir { watch };
 # b/261105224
 dontaudit chre hal_system_suspend_service:service_manager { find };
 dontaudit chre servicemanager:binder { call };
-dontaudit chre sysfs_aoc:dir { search };
-dontaudit chre sysfs_aoc_boottime:file { getattr };
-dontaudit chre sysfs_aoc_boottime:file { open };
-dontaudit chre sysfs_aoc_boottime:file { read };
 dontaudit chre system_suspend_server:binder { call };
 # b/264489633
 userdebug_or_eng(`
