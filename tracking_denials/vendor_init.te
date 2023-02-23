@@ -5,9 +5,6 @@ dontaudit vendor_init vendor_init:capability2 { block_suspend };
 userdebug_or_eng(`
   permissive vendor_init;
 ')
-# b/267843409
-dontaudit vendor_init default_prop:property_service { set };
-dontaudit vendor_init vendor_camera_debug_prop:property_service { set };
 # b/268572164
 dontaudit vendor_init vendor_ssrdump_prop:property_service { set };
 dontaudit vendor_init vendor_usb_config_prop:property_service { set };
