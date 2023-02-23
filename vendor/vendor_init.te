@@ -25,3 +25,6 @@ set_prop(vendor_init, vendor_secure_element_prop)
 
 # USB property
 set_prop(vendor_init, vendor_usb_config_prop)
+
+# Mali
+set_prop(vendor_init, vendor_arm_runtime_option_prop)
