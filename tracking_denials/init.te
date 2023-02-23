@@ -1,5 +1,3 @@
-# b/262794360
-dontaudit init ram_device:blk_file { write };
 # b/264489678
 userdebug_or_eng(`
   permissive init;
