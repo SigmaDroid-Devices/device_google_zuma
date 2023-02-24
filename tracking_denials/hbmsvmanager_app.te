@@ -1,8 +1,0 @@
-# b/262794939
-dontaudit hbmsvmanager_app hal_pixel_display_service:service_manager { find };
-# b/263185136
-dontaudit hbmsvmanager_app hal_graphics_composer_default:binder { call };
-# b/264489797
-userdebug_or_eng(`
-  permissive hbmsvmanager_app;
-')
