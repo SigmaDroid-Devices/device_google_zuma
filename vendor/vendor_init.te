@@ -25,3 +25,5 @@ set_prop(vendor_init, vendor_secure_element_prop)
 
 # USB property
 set_prop(vendor_init, vendor_usb_config_prop)
+
+set_prop(vendor_init, vendor_ssrdump_prop)
