@@ -1,5 +1,4 @@
 # Data
-type vendor_hwc_log_file, file_type, data_file_type;
 type updated_wifi_firmware_data_file, file_type, data_file_type;
 type tcpdump_vendor_data_file, file_type, data_file_type;
 type vendor_camera_data_file, file_type, data_file_type;
