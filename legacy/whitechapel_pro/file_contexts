@@ -41,7 +41,6 @@
 /dev/block/sda                                                              u:object_r:sda_block_device:s0
 
 # Data
-/data/vendor/log/hwc(/.*)?                                                  u:object_r:vendor_hwc_log_file:s0
 /data/vendor/ss(/.*)?                                                       u:object_r:tee_data_file:s0
 /data/nfc(/.*)?                                                             u:object_r:nfc_data_file:s0
 /data/vendor/firmware/wifi(/.*)?                                            u:object_r:updated_wifi_firmware_data_file:s0
