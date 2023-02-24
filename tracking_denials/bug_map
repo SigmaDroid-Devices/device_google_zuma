@@ -15,6 +15,7 @@ hal_dumpstate_default vendor_displaycolor_service service_manager b/264600086
 hal_dumpstate_default vendor_modem_prop property_service b/264482983
 hal_secure_element_uicc hal_secure_element_hwservice hwservice_manager b/264483151
 hal_secure_element_uicc hidl_base_hwservice hwservice_manager b/264483151
+init ram_device blk_file b/270633329
 mtectrl unlabeled dir b/264483752
 pixelstats_vendor servicemanager binder b/264483357
 pixelstats_vendor sysfs_pixelstats file b/264483319
