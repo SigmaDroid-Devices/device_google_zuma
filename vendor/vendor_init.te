@@ -28,3 +28,4 @@ set_prop(vendor_init, vendor_usb_config_prop)
 
 # Mali
 set_prop(vendor_init, vendor_arm_runtime_option_prop)
+set_prop(vendor_init, vendor_ssrdump_prop)
