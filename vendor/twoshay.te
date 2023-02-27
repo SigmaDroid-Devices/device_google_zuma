@@ -1,0 +1,2 @@
+# Allow ITouchContextService callback
+binder_call(twoshay, systemui_app)
