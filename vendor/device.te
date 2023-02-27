@@ -1,4 +1,5 @@
 type persist_block_device, dev_type;
+type tee_persist_block_device, dev_type;
 type custom_ab_block_device, dev_type;
 type devinfo_block_device, dev_type;
 type mfg_data_block_device, dev_type;
