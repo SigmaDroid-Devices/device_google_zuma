@@ -33,3 +33,6 @@ userdebug_or_eng(`
 
 type sysfs_fabric, sysfs_type, fs_type;
 type sysfs_em_profile, sysfs_type, fs_type;
+
+# GSA
+type sysfs_gsa_log, sysfs_type, fs_type;
