@@ -9,4 +9,5 @@ allow init custom_ab_block_device:lnk_file relabelto;
 allow init boot_block_device:lnk_file relabelto;
 
 allow init persist_file:dir mounton;
+allow init ram_device:blk_file w_file_perms;
 
