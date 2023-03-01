@@ -8,6 +8,8 @@ allow tee mnt_vendor_file:dir r_dir_perms;
 allow tee tee_data_file:dir rw_dir_perms;
 allow tee tee_data_file:lnk_file r_file_perms;
 allow tee sg_device:chr_file rw_file_perms;
+allow tee tee_persist_block_device:blk_file rw_file_perms;
+allow tee block_device:dir search;
 
 # Allow storageproxyd access to gsi_public_metadata_file
 read_fstab(tee)
