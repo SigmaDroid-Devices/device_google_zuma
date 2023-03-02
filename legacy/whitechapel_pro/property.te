@@ -11,8 +11,5 @@ vendor_internal_prop(vendor_display_prop)
 # UWB calibration
 system_vendor_config_prop(vendor_uwb_calibration_prop)
 
-# Dynamic sensor
-vendor_internal_prop(vendor_dynamic_sensor_prop)
-
 # Trusty storage FS ready
 vendor_internal_prop(vendor_trusty_storage_prop)
