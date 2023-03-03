@@ -1,15 +1,3 @@
-# b/260366399
-dontaudit hal_thermal_default sysfs:file { getattr };
-dontaudit hal_thermal_default sysfs:file { open };
-dontaudit hal_thermal_default sysfs:file { read };
-# b/261651187
-dontaudit hal_thermal_default sysfs_iio_devices:dir { open };
-dontaudit hal_thermal_default sysfs_iio_devices:dir { read };
-dontaudit hal_thermal_default sysfs_iio_devices:dir { search };
-# b/264204525
-dontaudit hal_thermal_default sysfs_odpm:file { getattr };
-dontaudit hal_thermal_default sysfs_odpm:file { open };
-dontaudit hal_thermal_default sysfs_odpm:file { read };
 # b/264490033
 userdebug_or_eng(`
   permissive hal_thermal_default;
