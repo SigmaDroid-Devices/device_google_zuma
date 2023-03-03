@@ -1,7 +1,0 @@
-# b/261933368
-dontaudit hal_confirmationui_default dumpstate:fd { use };
-dontaudit hal_confirmationui_default dumpstate:fifo_file { write };
-# b/264489634
-userdebug_or_eng(`
-  permissive hal_confirmationui_default;
-')
