@@ -35,7 +35,6 @@ genfscon proc /sys/vm/swappiness                                        u:object
 
 # debugfs
 genfscon debugfs /regmap                                                u:object_r:vendor_regmap_debugfs:s0
-genfscon debugfs /dri/0/crtc-                                           u:object_r:vendor_dri_debugfs:s0
 
 # Haptics
 genfscon sysfs /devices/platform/10970000.hsi2c/i2c-5/i2c-cs40l26a      u:object_r:sysfs_vibrator:s0

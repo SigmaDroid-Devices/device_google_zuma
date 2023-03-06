@@ -1,2 +1,1 @@
-type vendor_displaycolor_service, vndservice_manager_type;
 type vendor_surfaceflinger_vndservice, vndservice_manager_type;
