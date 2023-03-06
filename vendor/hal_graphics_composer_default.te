@@ -37,10 +37,6 @@ add_service(hal_graphics_composer_default, vendor_displaycolor_service)
 
 add_service(hal_graphics_composer_default, vendor_surfaceflinger_vndservice)
 
-# allow HWC to output to dumpstate via pipe fd
-allow hal_graphics_composer_default hal_dumpstate_default:fifo_file { append write };
-allow hal_graphics_composer_default hal_dumpstate_default:fd use;
-
 # allow HWC to read/write/search hwc_log_file
 allow hal_graphics_composer_default vendor_hwc_log_file:dir rw_dir_perms;
 allow hal_graphics_composer_default vendor_hwc_log_file:file create_file_perms;
