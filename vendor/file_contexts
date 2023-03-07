@@ -161,5 +161,3 @@
 /dev/dma_heap/vscaler-secure                                                u:object_r:video_secure_heap_device:s0
 /dev/dma_heap/vstream-secure                                                u:object_r:video_secure_heap_device:s0
 
-# Data
-/data/vendor/camera(/.*)?                                                   u:object_r:vendor_camera_data_file:s0
