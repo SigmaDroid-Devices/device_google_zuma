@@ -5,9 +5,6 @@
 /vendor/bin/hw/android\.hardware\.contexthub-service\.generic               u:object_r:hal_contexthub_default_exec:s0
 /vendor/bin/hw/android\.hardware\.nfc-service\.st                           u:object_r:hal_nfc_default_exec:s0
 
-# Vendor Firmwares
-/vendor/firmware/mali_csffw\.bin                                            u:object_r:same_process_hal_file:s0
-
 # Vendor libraries
 /vendor/lib(64)?/libdrm\.so                                                 u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/libion_google\.so                                          u:object_r:same_process_hal_file:s0

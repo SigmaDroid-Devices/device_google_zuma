@@ -1,5 +1,4 @@
 # b/260522245
-allow kernel same_process_hal_file:file r_file_perms;
 dontaudit kernel vendor_regmap_debugfs:dir { search };
 # b/262794429
 dontaudit kernel sepolicy_file:file { getattr };
