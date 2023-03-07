@@ -34,4 +34,3 @@ untrusted_app default_android_service service_manager b/264599934
 vendor_init device_config_configuration_prop property_service b/267714573
 vendor_init device_config_configuration_prop property_service b/268566481
 vendor_init vendor_camera_prop property_service b/267714573
-zygote vendor_cccdktimesync_app process b/269812912
