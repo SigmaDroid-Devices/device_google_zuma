@@ -1,15 +1,6 @@
-type systemui_app, domain, coredomain;
+type systemui_app, domain;
 app_domain(systemui_app)
 allow systemui_app app_api_service:service_manager find;
-
-get_prop(systemui_app, keyguard_config_prop)
-set_prop(systemui_app, bootanim_system_prop)
-
-allow systemui_app hal_googlebattery_service:service_manager find;
-binder_call(systemui_app, hal_googlebattery)
-
-allow systemui_app touch_context_service:service_manager find;
-binder_call(systemui_app, twoshay)
 
 # WLC
 allow systemui_app hal_wireless_charger_service:service_manager find;
