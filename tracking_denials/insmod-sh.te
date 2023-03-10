@@ -1,6 +1,3 @@
-# b/260366066
-dontaudit insmod-sh insmod-sh:capability { sys_nice };
-dontaudit insmod-sh kernel:process { setsched };
 # b/260522378
 dontaudit insmod-sh vendor_regmap_debugfs:dir { search };
 # b/264490091
