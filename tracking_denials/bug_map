@@ -33,11 +33,17 @@ ssr_detector_app system_app_data_file file b/264483352
 system_server default_android_service service_manager b/264483754
 system_suspend sysfs dir b/272166423
 systemui_app bootanim_system_prop property_service b/269964574
+systemui_app cameraserver_service service_manager b/272628174
 systemui_app hal_googlebattery binder b/269964574
 systemui_app init unix_stream_socket b/269964574
+systemui_app mediaextractor_service service_manager b/272628174
+systemui_app mediametrics_service service_manager b/272628174
+systemui_app mediaserver_service service_manager b/272628174
 systemui_app property_socket sock_file b/269964574
 systemui_app qemu_hw_prop file b/269964574
+systemui_app radio_service service_manager b/272628174
 systemui_app twoshay binder b/269964574
+systemui_app vr_manager_service service_manager b/272628174
 twoshay systemui_app binder b/269964558
 untrusted_app default_android_service service_manager b/264599934
 vendor_init device_config_configuration_prop property_service b/267714573
