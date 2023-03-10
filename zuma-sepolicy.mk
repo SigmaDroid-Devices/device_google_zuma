@@ -1,4 +1,4 @@
-# sepolicy that are shared among devices using whitechapel
+# sepolicy that are shared among devices using zuma
 BOARD_SEPOLICY_DIRS += device/google/zuma-sepolicy/vendor
 BOARD_SEPOLICY_DIRS += device/google/zuma-sepolicy/radio
 PRODUCT_PRIVATE_SEPOLICY_DIRS += device/google/zuma-sepolicy/radio/private
