@@ -1,6 +1,6 @@
 # b/260522378
 dontaudit insmod-sh vendor_regmap_debugfs:dir { search };
-# b/264490091
+# b/272166723
 userdebug_or_eng(`
-  permissive insmod-sh;
+  allow insmod-sh self:lockdown integrity;
 ')

@@ -19,7 +19,6 @@ hal_secure_element_uicc hidl_base_hwservice hwservice_manager b/264483151
 hal_thermal_default sysfs file b/272166722
 hal_thermal_default sysfs file b/272166987
 hal_usb_gadget_impl sysfs_batteryinfo dir b/272166827
-insmod-sh insmod-sh lockdown b/272166723
 kernel vendor_fw_file dir b/272166737
 kernel vendor_fw_file dir b/272166787
 mtectrl unlabeled dir b/264483752
