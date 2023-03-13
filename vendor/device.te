@@ -7,6 +7,7 @@ type ufs_internal_block_device, dev_type;
 type logbuffer_device, dev_type;
 type gxp_device, dev_type, mlstrustedobject;
 type fingerprint_device, dev_type;
+type uci_device, dev_type;
 
 # Dmabuf heaps
 type sensor_direct_heap_device, dmabuf_heap_device_type, dev_type;
