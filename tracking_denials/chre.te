@@ -2,7 +2,3 @@
 dontaudit chre hal_system_suspend_service:service_manager { find };
 dontaudit chre servicemanager:binder { call };
 dontaudit chre system_suspend_server:binder { call };
-# b/264489633
-userdebug_or_eng(`
-  permissive chre;
-')
