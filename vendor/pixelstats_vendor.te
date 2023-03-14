@@ -19,3 +19,5 @@ allow pixelstats_vendor sysfs_wlc:file rw_file_perms;
 # PCIe Link Statistics
 allow pixelstats_vendor sysfs_pcie:dir search;
 allow pixelstats_vendor sysfs_pcie:file rw_file_perms;
+
+allow pixelstats_vendor sysfs_pixelstats:file r_file_perms;
