@@ -1,4 +1,0 @@
-# b/264266705
-userdebug_or_eng(`
-    permissive systemui_app;
-')
