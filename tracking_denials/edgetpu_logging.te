@@ -1,8 +1,0 @@
-# b/260366279
-dontaudit edgetpu_logging sysfs:file { getattr };
-dontaudit edgetpu_logging sysfs:file { open };
-dontaudit edgetpu_logging sysfs:file { read };
-# b/264489387
-userdebug_or_eng(`
-  permissive edgetpu_logging;
-')
