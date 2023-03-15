@@ -1,4 +1,0 @@
-# b/264490011
-userdebug_or_eng(`
-  permissive isolated_app;
-')

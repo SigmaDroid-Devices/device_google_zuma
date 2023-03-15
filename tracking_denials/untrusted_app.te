@@ -1,5 +1,0 @@
-# b/264489642
-userdebug_or_eng(`
-  permissive untrusted_app;
-')# b/264972745
-dontaudit untrusted_app default_android_service:service_manager { find };
