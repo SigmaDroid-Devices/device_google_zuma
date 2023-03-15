@@ -152,6 +152,7 @@
 /dev/st54spi                                                                u:object_r:st54spi_device:s0
 /dev/trusty-ipc-dev0                                                        u:object_r:tee_device:s0
 /dev/dma_heap/sensor_direct_heap                                            u:object_r:sensor_direct_heap_device:s0
+/dev/dma_heap/faceauth_dsp-secure                                           u:object_r:faceauth_heap_device:s0
 /dev/dma_heap/faceauth_tpu-secure                                           u:object_r:faceauth_heap_device:s0
 /dev/dma_heap/faimg-secure                                                  u:object_r:faceauth_heap_device:s0
 /dev/dma_heap/famodel-secure                                                u:object_r:faceauth_heap_device:s0
