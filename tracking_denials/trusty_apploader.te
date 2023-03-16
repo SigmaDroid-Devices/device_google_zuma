@@ -1,4 +1,0 @@
-# b/264489569
-userdebug_or_eng(`
-  permissive trusty_apploader;
-')
