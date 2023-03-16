@@ -15,6 +15,9 @@ userdebug_or_eng(`
 allow vendor_init vendor_init:lockdown { integrity };
 ')
 
+# Camera vendor property
+set_prop(vendor_init, vendor_camera_prop)
+
 # NFC vendor property
 set_prop(vendor_init, vendor_nfc_prop)
 # SecureElement vendor property
