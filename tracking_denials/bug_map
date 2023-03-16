@@ -21,7 +21,6 @@ hal_secure_element_uicc hal_secure_element_hwservice hwservice_manager b/2644831
 hal_secure_element_uicc hidl_base_hwservice hwservice_manager b/264483151
 hal_thermal_default sysfs file b/272166722
 hal_thermal_default sysfs file b/272166987
-hal_usb_gadget_impl sysfs_batteryinfo dir b/272166827
 hal_uwb_default debugfs file b/273639365
 incidentd apex_art_data_file file b/272628762
 kernel vendor_fw_file dir b/272166737
