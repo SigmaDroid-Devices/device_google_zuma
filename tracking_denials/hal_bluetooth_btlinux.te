@@ -1,4 +1,0 @@
-# b/264489608
-userdebug_or_eng(`
-  permissive hal_bluetooth_btlinux;
-')
