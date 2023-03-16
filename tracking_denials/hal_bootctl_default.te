@@ -1,5 +1,0 @@
-# b/267843310
-dontaudit hal_bootctl_default hal_bootctl_default:capability { dac_override };
-dontaudit hal_bootctl_default tee_device:chr_file { ioctl };
-dontaudit hal_bootctl_default tee_device:chr_file { open };
-dontaudit hal_bootctl_default tee_device:chr_file { read write };
