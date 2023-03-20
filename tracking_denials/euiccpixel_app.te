@@ -1,4 +1,0 @@
-# b/265286368
-dontaudit euiccpixel_app default_android_service:service_manager { find };
-# b/269218505
-dontaudit euiccpixel_app default_prop:file { read };

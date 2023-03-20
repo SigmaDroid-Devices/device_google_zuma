@@ -16,3 +16,6 @@ userdebug_or_eng(`
     typeattribute st54spi_device mlstrustedobject;
     allow euiccpixel_app st54spi_device:chr_file rw_file_perms;
 ')
+
+# b/265286368 framework UI rendering properties
+dontaudit euiccpixel_app default_prop:file { read };
