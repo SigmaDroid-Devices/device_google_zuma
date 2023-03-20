@@ -1,6 +1,0 @@
-# b/260522378
-dontaudit insmod-sh vendor_regmap_debugfs:dir { search };
-# b/272166723
-userdebug_or_eng(`
-  allow insmod-sh self:lockdown integrity;
-')
