@@ -1,5 +1,0 @@
-# b/264489750
-userdebug_or_eng(`
-  permissive hal_uwb_default;
-')# b/267260951
-dontaudit hal_uwb_default debugfs:file { read };
