@@ -8,3 +8,5 @@ dump_hal(hal_confirmationui)
 binder_call(dumpstate, hal_wireless_charger)
 
 dump_hal(hal_uwb)
+
+dontaudit dumpstate hal_power_stats_vendor_service:service_manager { find };

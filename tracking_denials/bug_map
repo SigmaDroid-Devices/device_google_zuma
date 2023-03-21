@@ -5,7 +5,6 @@ con_monitor_app dalvikcache_data_file file b/264483670
 con_monitor_app mnt_expand_file dir b/264483670
 con_monitor_app system_data_file lnk_file b/264483670
 dumpstate app_zygote process b/264483390
-dumpstate hal_power_stats_vendor_service service_manager b/273639264
 dumpstate sysfs_scsi_devices_0000 file b/272166771
 google_camera_app audio_service service_manager b/264600171
 google_camera_app backup_service service_manager b/264483456
