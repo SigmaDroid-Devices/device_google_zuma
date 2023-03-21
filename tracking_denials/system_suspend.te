@@ -1,4 +1,2 @@
 # b/261105356
 dontaudit system_suspend_server chre:binder { transfer };
-# b/263305203
-dontaudit system_suspend_server tee:binder { transfer };
