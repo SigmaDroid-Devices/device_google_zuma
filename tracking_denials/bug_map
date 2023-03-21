@@ -44,7 +44,6 @@ systemui_app mediametrics_service service_manager b/272628174
 systemui_app mediaserver_service service_manager b/272628174
 systemui_app property_socket sock_file b/269964574
 systemui_app qemu_hw_prop file b/269964574
-systemui_app radio_service service_manager b/272628174
 systemui_app twoshay binder b/269964574
 systemui_app vr_manager_service service_manager b/272628174
 twoshay systemui_app binder b/269964558
