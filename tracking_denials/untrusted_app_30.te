@@ -1,4 +1,0 @@
-# b/264489681
-userdebug_or_eng(`
-  permissive untrusted_app_30;
-')
