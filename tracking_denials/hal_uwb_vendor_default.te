@@ -1,4 +1,0 @@
-# b/264489190
-userdebug_or_eng(`
-  permissive hal_uwb_vendor_default;
-')

@@ -1,4 +1,0 @@
-# b/264489787
-userdebug_or_eng(`
-  permissive uwb_vendor_app;
-')
