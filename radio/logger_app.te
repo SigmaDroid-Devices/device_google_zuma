@@ -20,4 +20,7 @@ userdebug_or_eng(`
   set_prop(logger_app, vendor_wifi_sniffer_prop)
   set_prop(logger_app, logpersistd_logging_prop)
   set_prop(logger_app, logd_prop)
+
+  # b/269383459 framework UI rendering properties
+  dontaudit logger_app default_prop:file { read };
 ')
