@@ -1,4 +1,0 @@
-# b/269383459
-userdebug_or_eng(`
-  dontaudit logger_app default_prop:file { read };
-')
