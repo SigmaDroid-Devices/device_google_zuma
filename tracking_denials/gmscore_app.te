@@ -7,6 +7,4 @@ dontaudit gmscore_app modem_img_file:filesystem { getattr };
 # b/264489521
 userdebug_or_eng(`
   permissive gmscore_app;
-')# b/265383359
-dontaudit gmscore_app euiccpixel_app:binder { call };
-dontaudit gmscore_app euiccpixel_app:binder { transfer };
+')
