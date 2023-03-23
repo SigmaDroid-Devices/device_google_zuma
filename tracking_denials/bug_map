@@ -11,6 +11,7 @@ google_camera_app backup_service service_manager b/264483456
 google_camera_app legacy_permission_service service_manager b/264600171
 google_camera_app permission_checker_service service_manager b/264600171
 hal_audio_default hal_audio_default binder b/274374769
+hal_bootctl_default hal_bootctl_default capability b/274727372
 hal_dumpstate_default vendor_displaycolor_service service_manager b/264482983
 hal_dumpstate_default vendor_displaycolor_service service_manager b/264600086
 hal_dumpstate_default vendor_modem_prop property_service b/264482983
@@ -26,6 +27,7 @@ hal_uwb_default debugfs file b/273639365
 incidentd apex_art_data_file file b/272628762
 incidentd incidentd anon_inode b/274374992
 insmod-sh insmod-sh key b/274374722
+insmod-sh vendor_regmap_debugfs dir b/274727542
 kernel vendor_fw_file dir b/272166737
 kernel vendor_fw_file dir b/272166787
 mtectrl unlabeled dir b/264483752
