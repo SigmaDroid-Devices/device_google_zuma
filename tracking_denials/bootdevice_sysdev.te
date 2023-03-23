@@ -1,4 +1,0 @@
-# b/264489743
-userdebug_or_eng(`
-  permissive bootdevice_sysdev;
-')
