@@ -36,7 +36,6 @@ servicemanager hal_fingerprint_default binder b/264483753
 ssr_detector_app system_app_data_file dir b/264483352
 ssr_detector_app system_app_data_file file b/264483352
 system_server default_android_service service_manager b/264483754
-system_suspend sysfs dir b/272166423
 systemui_app bootanim_system_prop property_service b/269964574
 systemui_app cameraserver_service service_manager b/272628174
 systemui_app hal_googlebattery binder b/269964574
