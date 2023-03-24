@@ -17,7 +17,6 @@ hal_dumpstate_default vendor_displaycolor_service service_manager b/264600086
 hal_dumpstate_default vendor_modem_prop property_service b/264482983
 hal_dumpstate_default vendor_tcpdump_log_prop file b/273638940
 hal_power_default sysfs file b/273638876
-hal_power_stats_default sysfs file b/272166847
 hal_radioext_default servicemanager binder b/274374768
 hal_secure_element_uicc hal_secure_element_hwservice hwservice_manager b/264483151
 hal_secure_element_uicc hidl_base_hwservice hwservice_manager b/264483151
