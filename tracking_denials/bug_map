@@ -12,6 +12,8 @@ google_camera_app legacy_permission_service service_manager b/264600171
 google_camera_app permission_checker_service service_manager b/264600171
 hal_audio_default hal_audio_default binder b/274374769
 hal_bootctl_default hal_bootctl_default capability b/274727372
+hal_camera_default edgetpu_app_server binder b/275001641
+hal_camera_default edgetpu_app_service service_manager b/275001641
 hal_dumpstate_default vendor_displaycolor_service service_manager b/264482983
 hal_dumpstate_default vendor_displaycolor_service service_manager b/264600086
 hal_dumpstate_default vendor_modem_prop property_service b/264482983
