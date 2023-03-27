@@ -12,7 +12,6 @@ userdebug_or_eng(`
 ')
 
 # sysfs
-type sysfs_ota, sysfs_type, fs_type;
 type bootdevice_sysdev, dev_type;
 type sysfs_wifi, sysfs_type, fs_type;
 type sysfs_bcmdhd, sysfs_type, fs_type;

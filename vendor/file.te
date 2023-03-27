@@ -39,8 +39,10 @@ userdebug_or_eng(`
     typeattribute proc_vendor_sched mlstrustedobject;
 ')
 
+# sysfs
 type sysfs_fabric, sysfs_type, fs_type;
 type sysfs_em_profile, sysfs_type, fs_type;
+type sysfs_ota, sysfs_type, fs_type;
 
 # GSA
 type sysfs_gsa_log, sysfs_type, fs_type;
