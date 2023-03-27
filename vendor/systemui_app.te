@@ -5,6 +5,7 @@ allow systemui_app network_score_service:service_manager find;
 allow systemui_app overlay_service:service_manager find;
 allow systemui_app color_display_service:service_manager find;
 allow systemui_app audioserver_service:service_manager find;
+allow systemui_app cameraserver_service:service_manager find;
 allow systemui_app mediaserver_service:service_manager find;
 allow systemui_app radio_service:service_manager find;
 
