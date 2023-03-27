@@ -16,6 +16,15 @@ user=_app seinfo=platform name=com.android.pixeldisplayservice domain=pixeldispl
 # Google Camera
 user=_app isPrivApp=true seinfo=google name=com.google.android.GoogleCamera domain=google_camera_app type=app_data_file levelFrom=all
 
+# Google Camera Eng
+user=_app seinfo=CameraEng name=com.google.android.GoogleCameraEng domain=debug_camera_app type=app_data_file levelFrom=all
+
+# Also allow GoogleCameraNext, the fishfood version, the same access as GoogleCamera
+user=_app seinfo=CameraFishfood name=com.google.android.apps.googlecamera.fishfood domain=google_camera_app type=app_data_file levelFrom=all
+
+# Also label GoogleCameraNext, built with debug keys as debug_camera_app.
+user=_app seinfo=CameraEng name=com.google.android.apps.googlecamera.fishfood domain=debug_camera_app type=app_data_file levelFrom=all
+
 # Qorvo UWB system app
 # TODO(b/222204912): Should this run under uwb user?
 user=_app isPrivApp=true seinfo=uwb name=com.qorvo.uwb.vendorservice domain=uwb_vendor_app type=uwb_vendor_data_file levelFrom=all
