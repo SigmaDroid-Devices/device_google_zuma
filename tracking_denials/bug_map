@@ -49,6 +49,8 @@ untrusted_app default_android_service service_manager b/264599934
 vendor_init device_config_configuration_prop property_service b/267714573
 vendor_init device_config_configuration_prop property_service b/268566481
 vendor_init device_config_configuration_prop property_service b/273143844
+vendor_init device_config_configuration_prop property_service b/275645636
+vendor_init device_config_configuration_prop property_service b/275646003
 vendor_init tee_data_file lnk_file b/267714573
 vendor_init tee_data_file lnk_file b/272166664
 vendor_init vendor_camera_prop property_service b/267714573
