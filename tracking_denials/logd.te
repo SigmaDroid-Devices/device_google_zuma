@@ -1,7 +1,0 @@
-# b/261105354
-dontaudit logd trusty_log_device:chr_file { open };
-dontaudit logd trusty_log_device:chr_file { read };
-# b/264489639
-userdebug_or_eng(`
-  permissive logd;
-')
