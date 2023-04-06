@@ -21,8 +21,6 @@ hal_dumpstate_default vendor_tcpdump_log_prop file b/273638940
 hal_power_default sysfs file b/273638876
 hal_secure_element_uicc hal_secure_element_hwservice hwservice_manager b/264483151
 hal_secure_element_uicc hidl_base_hwservice hwservice_manager b/264483151
-hal_thermal_default sysfs file b/272166722
-hal_thermal_default sysfs file b/272166987
 hal_uwb_default debugfs file b/273639365
 incidentd apex_art_data_file file b/272628762
 incidentd incidentd anon_inode b/274374992
