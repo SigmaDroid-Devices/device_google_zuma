@@ -1,3 +1,4 @@
+# P23 vendor properties
 vendor_internal_prop(vendor_carrier_prop)
 vendor_internal_prop(vendor_cbd_prop)
 vendor_internal_prop(vendor_slog_prop)
@@ -9,8 +10,8 @@ vendor_internal_prop(vendor_ssrdump_prop)
 vendor_internal_prop(vendor_wifi_version)
 vendor_internal_prop(vendor_imssvc_prop)
 vendor_internal_prop(vendor_gps_prop)
-vendor_internal_prop(vendor_logger_prop)
 vendor_internal_prop(vendor_tcpdump_log_prop)
 
 # Telephony debug app
 vendor_internal_prop(vendor_telephony_app_prop)
+
