@@ -1,29 +1,4 @@
-# b/262455755
-dontaudit google_camera_app activity_service:service_manager { find };
-dontaudit google_camera_app cameraserver_service:service_manager { find };
-dontaudit google_camera_app content_capture_service:service_manager { find };
-dontaudit google_camera_app device_state_service:service_manager { find };
-dontaudit google_camera_app edgetpu_app_service:service_manager { find };
-dontaudit google_camera_app edgetpu_device:chr_file { ioctl };
-dontaudit google_camera_app edgetpu_device:chr_file { map };
-dontaudit google_camera_app edgetpu_device:chr_file { read write };
-dontaudit google_camera_app fwk_stats_service:service_manager { find };
-dontaudit google_camera_app game_service:service_manager { find };
-dontaudit google_camera_app mediaserver_service:service_manager { find };
-dontaudit google_camera_app netstats_service:service_manager { find };
-dontaudit google_camera_app sensorservice_service:service_manager { find };
-dontaudit google_camera_app surfaceflinger_service:service_manager { find };
-dontaudit google_camera_app thermal_service:service_manager { find };
 # b/264490031
 userdebug_or_eng(`
   permissive google_camera_app;
-')# b/264483456
-dontaudit google_camera_app backup_service:service_manager { find };
-# b/264600171
-dontaudit google_camera_app audio_service:service_manager { find };
-dontaudit google_camera_app legacy_permission_service:service_manager { find };
-dontaudit google_camera_app permission_checker_service:service_manager { find };
-# b/265220235
-dontaudit google_camera_app virtual_device_service:service_manager { find };
-# b/267843408
-dontaudit google_camera_app device_policy_service:service_manager { find };
+')
