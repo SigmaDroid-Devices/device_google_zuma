@@ -20,7 +20,6 @@ persist.vendor.config.                     u:object_r:vendor_persist_config_defa
 # for logger app
 vendor.pixellogger.                        u:object_r:vendor_logger_prop:s0
 persist.vendor.pixellogger.                u:object_r:vendor_logger_prop:s0
-persist.vendor.verbose_logging_enabled     u:object_r:vendor_logger_prop:s0
 
 # Modem
 persist.vendor.modem.                      u:object_r:vendor_modem_prop:s0
@@ -57,3 +56,4 @@ persist.vendor.gps.                        u:object_r:vendor_gps_prop:s0
 # Tcpdump_logger
 persist.vendor.tcpdump.log.alwayson        u:object_r:vendor_tcpdump_log_prop:s0
 vendor.tcpdump.                            u:object_r:vendor_tcpdump_log_prop:s0
+
