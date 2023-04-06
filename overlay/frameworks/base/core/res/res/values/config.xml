@@ -282,4 +282,6 @@
 
     <!-- Enable variable refresh rate when typing. -->
     <bool name="config_variableRefreshRateTypingSupported">false</bool>
+
+    <bool name="config_Google_apps_can_have_special_access_to_accelerators">true</bool>
 </resources>
