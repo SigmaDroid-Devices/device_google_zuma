@@ -318,4 +318,6 @@
 
     <!-- Whether to enable usb state update via udc sysfs. -->
     <bool name="config_enableUdcSysfsUsbStateUpdate">true</bool>
+
+    <bool name="config_Google_apps_can_have_special_access_to_accelerators">true</bool>
 </resources>
