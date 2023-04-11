@@ -11,6 +11,8 @@ genfscon sysfs /devices/platform/17000080.devfreq_bo/devfreq/17000080.devfreq_bo
 # Fabric
 genfscon sysfs /devices/platform/17000090.devfreq_dsu/devfreq/17000090.devfreq_dsu/min_freq             u:object_r:sysfs_fabric:s0
 genfscon sysfs /devices/platform/170000a0.devfreq_bci/devfreq/170000a0.devfreq_bci/min_freq             u:object_r:sysfs_fabric:s0
+genfscon sysfs /devices/platform/17000090.devfreq_dsu/devfreq/17000090.devfreq_dsu/max_freq             u:object_r:sysfs_fabric:s0
+genfscon sysfs /devices/platform/170000a0.devfreq_bci/devfreq/170000a0.devfreq_bci/max_freq             u:object_r:sysfs_fabric:s0
 
 # EdgeTPU
 genfscon sysfs /devices/platform/1a000000.rio                           u:object_r:sysfs_edgetpu:s0
