@@ -26,7 +26,6 @@ genfscon debugfs /google_battery                                        u:object
 genfscon debugfs /pm_genpd/pm_genpd_summary                             u:object_r:vendor_pm_genpd_debugfs:s0
 genfscon debugfs /usb                                                   u:object_r:vendor_usb_debugfs:s0
 genfscon debugfs /maxfg                                                 u:object_r:vendor_maxfg_debugfs:s0
-genfscon debugfs /cma                                                   u:object_r:vendor_cma_debugfs:s0
 
 # Extcon
 genfscon sysfs /devices/platform/10cb0000.hsi2c/i2c-0/0-0025/extcon/extcon0   u:object_r:sysfs_extcon:s0
