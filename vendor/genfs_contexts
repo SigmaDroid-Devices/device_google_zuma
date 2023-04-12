@@ -449,6 +449,7 @@ genfscon sysfs /devices/platform/google,usbc_port_cooling_dev/wakeup/wakeup     
 genfscon sysfs /devices/platform/gpio_keys/wakeup/wakeup                                                                  u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/sound-aoc/wakeup/wakeup                                                                  u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/wakeup/wakeup                                                                             u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/odm/odm:btbcm/wakeup                                                                     u:object_r:sysfs_wakeup:s0
 
 # Trusty
 genfscon sysfs /module/trusty_virtio/parameters/use_high_wq               u:object_r:sysfs_trusty:s0
