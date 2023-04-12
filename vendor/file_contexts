@@ -45,6 +45,7 @@
 # Devices
 /dev/bbd_pwrstat                                                            u:object_r:power_stats_device:s0
 /dev/edgetpu-soc                                                            u:object_r:edgetpu_device:s0
+/dev/block/sda                                                              u:object_r:sda_block_device:s0
 /dev/block/platform/13200000\.ufs/by-name/persist                           u:object_r:persist_block_device:s0
 /dev/block/platform/13200000\.ufs/by-name/efs                               u:object_r:efs_block_device:s0
 /dev/block/platform/13200000\.ufs/by-name/efs_backup                        u:object_r:efs_block_device:s0
