@@ -34,6 +34,8 @@
 # Vendor libraries
 /vendor/lib(64)?/libgxp\.so                                                 u:object_r:same_process_hal_file:s0
 
+# Vendor
+/data/vendor/bluetooth(/.*)?                                                u:object_r:vendor_bt_data_file:s0
 
 # persist
 /mnt/vendor/persist/camera(/.*)?                                            u:object_r:persist_camera_file:s0
