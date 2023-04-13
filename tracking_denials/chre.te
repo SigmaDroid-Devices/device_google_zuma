@@ -1,4 +1,0 @@
-# b/261105224
-dontaudit chre hal_system_suspend_service:service_manager { find };
-dontaudit chre servicemanager:binder { call };
-dontaudit chre system_suspend_server:binder { call };
