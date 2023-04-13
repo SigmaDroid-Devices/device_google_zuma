@@ -164,6 +164,7 @@
 /dev/dma_heap/famodel-secure                                                u:object_r:faceauth_heap_device:s0
 /dev/dma_heap/faprev-secure                                                 u:object_r:faceauth_heap_device:s0
 /dev/dma_heap/farawimg-secure                                               u:object_r:faceauth_heap_device:s0
+/dev/dma_heap/framebuffer-secure                                            u:object_r:video_secure_heap_device:s0
 /dev/dma_heap/vframe-secure                                                 u:object_r:video_secure_heap_device:s0
 /dev/dma_heap/vscaler-secure                                                u:object_r:video_secure_heap_device:s0
 /dev/dma_heap/vstream-secure                                                u:object_r:dmabuf_system_secure_heap_device:s0
