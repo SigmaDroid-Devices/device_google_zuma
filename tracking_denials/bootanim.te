@@ -1,2 +1,0 @@
-# b/260522279
-dontaudit bootanim system_data_file:dir { search };
