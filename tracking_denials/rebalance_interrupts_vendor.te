@@ -1,6 +1,2 @@
 # b/260366278
 dontaudit rebalance_interrupts_vendor rebalance_interrupts_vendor:capability { dac_override };
-# b/264489565
-userdebug_or_eng(`
-  permissive rebalance_interrupts_vendor;
-')

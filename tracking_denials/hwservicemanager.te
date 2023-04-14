@@ -1,4 +1,0 @@
-# b/264489781
-userdebug_or_eng(`
-  permissive hwservicemanager;
-')
