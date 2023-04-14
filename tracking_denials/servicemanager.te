@@ -1,6 +1,0 @@
-# b/263429985
-dontaudit servicemanager tee:binder { call };
-# b/264489962
-userdebug_or_eng(`
-  permissive servicemanager;
-')
