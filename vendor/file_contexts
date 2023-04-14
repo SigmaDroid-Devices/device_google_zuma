@@ -3,7 +3,7 @@
 /vendor/bin/hw/android\.hardware\.boot@1\.2-service-zuma                    u:object_r:hal_bootctl_default_exec:s0
 /vendor/bin/hw/android\.hardware\.gxp\.logging@service-gxp-logging          u:object_r:gxp_logging_exec:s0
 /vendor/bin/hw/android\.hardware\.power\.stats-service\.pixel               u:object_r:hal_power_stats_default_exec:s0
-/vendor/bin/hw/android\.hardware\.secure_element@1\.2-service-gto           u:object_r:hal_secure_element_st54spi_exec:s0
+/vendor/bin/hw/android\.hardware\.secure_element-service\.thales                    u:object_r:hal_secure_element_st54spi_aidl_exec:s0
 /vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.goodix  u:object_r:hal_fingerprint_default_exec:s0
 /vendor/bin/hw/android\.hardware\.biometrics\.fingerprint-service\.goodix   u:object_r:hal_fingerprint_default_exec:s0
 /vendor/bin/hw/android\.hardware\.usb-service                               u:object_r:hal_usb_impl_exec:s0
