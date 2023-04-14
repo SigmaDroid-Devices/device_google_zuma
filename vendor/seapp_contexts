@@ -4,9 +4,6 @@ user=_app isPrivApp=true seinfo=EuiccSupportPixel name=com.google.euiccpixel dom
 # coredump/ramdump
 user=_app seinfo=platform name=com.android.ramdump domain=ramdump_app type=app_data_file levelFrom=all
 
-# Domain for OFLBasicAgentApp to support NFC/eSIM fw upgrade
-user=_app isPrivApp=true  seinfo=platform name=com.thales.device.ofl.app.omapi_agent domain=ofl_app type=app_data_file levelFrom=user
-
 # Domain for connectivity monitor
 user=_app isPrivApp=true seinfo=platform name=com.google.android.connectivitymonitor domain=con_monitor_app type=app_data_file levelFrom=all
 
