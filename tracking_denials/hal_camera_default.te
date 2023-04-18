@@ -1,4 +1,0 @@
-# b/264489778
-userdebug_or_eng(`
-  permissive hal_camera_default;
-')
