@@ -19,6 +19,7 @@
 /data/vendor/log/rfsd(/.*)?                                                 u:object_r:vendor_rfsd_log_file:s0
 /data/vendor/log(/.*)?                                                      u:object_r:vendor_log_file:s0
 /data/vendor/slog(/.*)?                                                     u:object_r:vendor_slog_file:s0
+/data/vendor/modem_ml(/.*)?                                                 u:object_r:modem_ml_data_file:s0
 /data/vendor/modem_stat(/.*)?                                               u:object_r:modem_stat_data_file:s0
 /data/vendor/rild(/.*)?                                                     u:object_r:rild_vendor_data_file:s0
 

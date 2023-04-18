@@ -11,6 +11,10 @@ allow modem_ml_svc_sit radio_device:chr_file rw_file_perms;
 allow modem_ml_svc_sit radio_vendor_data_file:dir create_dir_perms;
 allow modem_ml_svc_sit radio_vendor_data_file:file create_file_perms;
 
+# Grant modem ml data file/dir creation permission
+allow modem_ml_svc_sit modem_ml_data_file:dir create_dir_perms;
+allow modem_ml_svc_sit modem_ml_data_file:file create_file_perms;
+
 # Grant modem ml models config files access
 allow modem_ml_svc_sit modem_config_file:file r_file_perms;
 
