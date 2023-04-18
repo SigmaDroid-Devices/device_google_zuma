@@ -1,0 +1,21 @@
+# b/260366281
+dontaudit priv_app privapp_data_file:dir { getattr };
+dontaudit priv_app privapp_data_file:dir { search };
+dontaudit priv_app vendor_default_prop:file { getattr };
+dontaudit priv_app vendor_default_prop:file { map };
+dontaudit priv_app vendor_default_prop:file { open };
+# b/260522282
+dontaudit priv_app privapp_data_file:file { open };
+dontaudit priv_app privapp_data_file:file { setattr };
+# b/260768358
+dontaudit priv_app default_android_service:service_manager { find };
+# b/260922442
+dontaudit priv_app default_android_service:service_manager { find };
+# b/263185432
+dontaudit priv_app privapp_data_file:file { unlink };
+# b/264490074
+userdebug_or_eng(`
+  permissive priv_app;
+')# b/268572216
+dontaudit priv_app privapp_data_file:dir { add_name };
+dontaudit priv_app privapp_data_file:dir { remove_name };
