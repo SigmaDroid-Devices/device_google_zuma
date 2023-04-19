@@ -1,2 +1,0 @@
-# b/275646098
-dontaudit hal_radioext_default service_manager_type:service_manager find;
