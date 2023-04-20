@@ -1,4 +1,0 @@
-userdebug_or_eng(`
-  permissive odrefresh;
-  dontaudit odrefresh property_type:file *;
-')
