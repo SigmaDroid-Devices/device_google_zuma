@@ -1,4 +1,0 @@
-# b/264489188
-userdebug_or_eng(`
-  permissive hal_neuralnetworks_armnn;
-')
