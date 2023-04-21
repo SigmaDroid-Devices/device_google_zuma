@@ -1,6 +1,0 @@
-# b/260522202
-dontaudit installd modem_img_file:filesystem { quotaget };
-# b/264490035
-userdebug_or_eng(`
-  permissive installd;
-')
