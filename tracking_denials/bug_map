@@ -14,7 +14,6 @@ hal_camera_default edgetpu_app_server binder b/275001641
 hal_camera_default edgetpu_app_service service_manager b/275001641
 hal_secure_element_uicc hal_secure_element_hwservice hwservice_manager b/264483151
 hal_secure_element_uicc hidl_base_hwservice hwservice_manager b/264483151
-hal_uwb_default debugfs file b/273639365
 incidentd apex_art_data_file file b/272628762
 incidentd incidentd anon_inode b/274374992
 insmod-sh insmod-sh key b/274374722
