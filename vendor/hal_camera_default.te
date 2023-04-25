@@ -84,6 +84,9 @@ binder_call(hal_camera_default, hal_radioext_default);
 allow hal_camera_default rls_service:service_manager find;
 binder_call(hal_camera_default, rlsservice)
 
+# Allow access to always-on compute device node
+allow hal_camera_default aoc_device:chr_file rw_file_perms;
+
 # Allow camera HAL to send trace packets to Perfetto
 userdebug_or_eng(`perfetto_producer(hal_camera_default)')
 
