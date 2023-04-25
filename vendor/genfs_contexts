@@ -425,6 +425,9 @@ genfscon sysfs /kernel/pixel_em/active_profile                            u:obje
 
 # GPU
 genfscon sysfs /devices/platform/1f000000.mali/hint_min_freq              u:object_r:sysfs_gpu:s0
+genfscon sysfs /devices/platform/1f000000.mali/dma_buf_gpu_mem            u:object_r:sysfs_gpu:s0
+genfscon sysfs /devices/platform/1f000000.mali/total_gpu_mem              u:object_r:sysfs_gpu:s0
+genfscon sysfs /devices/platform/1f000000.mali/kprcs                      u:object_r:sysfs_gpu:s0
 
 # AOC
 genfscon sysfs /devices/platform/17000000.aoc/aoc_clock_and_kernel_boottime u:object_r:sysfs_aoc_boottime:s0
