@@ -24,8 +24,6 @@ kernel vendor_fw_file dir b/272166787
 mtectrl unlabeled dir b/264483752
 platform_app bootanim_system_prop property_service b/264483532
 servicemanager hal_fingerprint_default binder b/264483753
-ssr_detector_app system_app_data_file dir b/264483352
-ssr_detector_app system_app_data_file file b/264483352
 system_server default_android_service service_manager b/264483754
 systemui_app init unix_stream_socket b/269964574
 systemui_app property_socket sock_file b/269964574
