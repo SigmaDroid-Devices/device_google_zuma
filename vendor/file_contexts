@@ -118,6 +118,7 @@
 /dev/lwis-dpm                                                               u:object_r:lwis_device:s0
 /dev/lwis-eeprom-djinn                                                      u:object_r:lwis_device:s0
 /dev/lwis-eeprom-gargoyle                                                   u:object_r:lwis_device:s0
+/dev/lwis-eeprom-gt24p64e-imentet                                           u:object_r:lwis_device:s0
 /dev/lwis-eeprom-humbaba                                                    u:object_r:lwis_device:s0
 /dev/lwis-eeprom-jotnar                                                     u:object_r:lwis_device:s0
 /dev/lwis-eeprom-nessie                                                     u:object_r:lwis_device:s0
@@ -148,6 +149,7 @@
 /dev/lwis-sensor-boitata                                                    u:object_r:lwis_device:s0
 /dev/lwis-sensor-buraq                                                      u:object_r:lwis_device:s0
 /dev/lwis-sensor-dokkaebi                                                   u:object_r:lwis_device:s0
+/dev/lwis-sensor-imentet                                                    u:object_r:lwis_device:s0
 /dev/lwis-sensor-kraken                                                     u:object_r:lwis_device:s0
 /dev/lwis-sensor-lamassu                                                    u:object_r:lwis_device:s0
 /dev/lwis-sensor-leshen                                                     u:object_r:lwis_device:s0
