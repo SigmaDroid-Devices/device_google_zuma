@@ -160,10 +160,10 @@
 /dev/lwis-slc                                                               u:object_r:lwis_device:s0
 /dev/lwis-eeprom-smaug-oksoko                                               u:object_r:lwis_device:s0
 /dev/lwis-top                                                               u:object_r:lwis_device:s0
-/dev/lwis-tof-vl53l8                                                        u:object_r:lwis_device:s0
-# Although stmvl53l1_ranging is not a real lwis_device but we treat it as an abstract lwis_device.
-# Binding it here with lwis-tof-vl53l8 for a better maintenance instead of creating another device type.
-/dev/stmvl53l1_ranging                                                      u:object_r:lwis_device:s0
+/dev/lwis-tof-tarasque                                                      u:object_r:lwis_device:s0
+# Although ispolin_ranging is not a real lwis_device but we treat it as an abstract lwis_device.
+# Binding it here with lwis-tof-tarasque for a better maintenance instead of creating another device type.
+/dev/ispolin_ranging                                                        u:object_r:lwis_device:s0
 /dev/lwis-votf                                                              u:object_r:lwis_device:s0
 /dev/st54spi                                                                u:object_r:st54spi_device:s0
 /dev/trusty-ipc-dev0                                                        u:object_r:tee_device:s0
