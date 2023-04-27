@@ -1,4 +1,0 @@
-# b/264490014
-userdebug_or_eng(`
-  permissive tcpdump_logger;
-')
