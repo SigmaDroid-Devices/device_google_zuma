@@ -1,7 +1,0 @@
-# b/264490031
-userdebug_or_eng(`
-  permissive google_camera_app;
-')
-# b/277300017
-dontaudit google_camera_app cameraserver_service:service_manager { find };
-dontaudit google_camera_app mediaserver_service:service_manager { find };
