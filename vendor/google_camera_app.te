@@ -1,13 +1,6 @@
 type google_camera_app, domain, coredomain;
 app_domain(google_camera_app)
 
-# Allows camera app to access the GXP device.
-allow google_camera_app gxp_device:chr_file rw_file_perms;
-
-# Allows camera app to access the PowerHAL.
-hal_client_domain(google_camera_app, hal_power)
-
-# Allow camera app to access the a subset of app services.
 allow google_camera_app app_api_service:service_manager find;
 allow google_camera_app audioserver_service:service_manager find;
 allow google_camera_app cameraserver_service:service_manager find;
@@ -15,7 +8,14 @@ allow google_camera_app mediaextractor_service:service_manager find;
 allow google_camera_app mediametrics_service:service_manager find;
 allow google_camera_app mediaserver_service:service_manager find;
 
-# Allows GCA to access the EdgeTPU device.
+# Allows GCA to acccess the GXP device and search for the firmware file.
+allow google_camera_app gxp_device:chr_file rw_file_perms;
+allow google_camera_app vendor_fw_file:dir search;
+
+# Allows GCA to access the PowerHAL.
+hal_client_domain(google_camera_app, hal_power)
+
+# Allows GCA to find and access the EdgeTPU.
 allow google_camera_app edgetpu_app_service:service_manager find;
 allow google_camera_app edgetpu_device:chr_file { getattr read write ioctl map };
 
