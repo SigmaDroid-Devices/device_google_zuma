@@ -20,3 +20,6 @@ type st54spi_device, dev_type;
 
 # OTA
 type sda_block_device, dev_type;
+
+# Raw HID device
+type hidraw_device, dev_type;
