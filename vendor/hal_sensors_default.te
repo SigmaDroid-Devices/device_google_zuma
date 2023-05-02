@@ -17,6 +17,9 @@ binder_call(hal_sensors_default, hal_graphics_composer_default);
 # Allow sensor HAL to access the display service HAL
 allow hal_sensors_default hal_pixel_display_service:service_manager find;
 
+# Allow sensor HAL to access the thermal service HAL
+hal_client_domain(hal_sensors_default, hal_thermal);
+
 # Allow reading of sensor registry persist files and camera persist files.
 allow hal_sensors_default mnt_vendor_file:dir search;
 allow hal_sensors_default persist_file:dir search;
