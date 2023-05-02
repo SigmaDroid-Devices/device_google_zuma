@@ -48,6 +48,3 @@
 # Persist
 /mnt/vendor/persist/sensors/registry(/.*)?                                  u:object_r:persist_sensor_reg_file:s0
 /mnt/vendor/persist/uwb(/.*)?                                               u:object_r:persist_uwb_file:s0
-
-# Raw HID device
-/dev/hidraw[0-9]*                        u:object_r:hidraw_device:s0
