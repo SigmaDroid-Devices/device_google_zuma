@@ -1,6 +1,0 @@
-# b/261651131
-dontaudit ssr_detector_app system_app_data_file:file { open };
-# b/264489567
-userdebug_or_eng(`
-  permissive ssr_detector_app;
-')
