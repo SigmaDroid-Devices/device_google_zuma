@@ -126,6 +126,7 @@
 /dev/lwis-eeprom-smaug-dokkaebi                                             u:object_r:lwis_device:s0
 /dev/lwis-eeprom-smaug-leshen                                               u:object_r:lwis_device:s0
 /dev/lwis-eeprom-smaug-leshen-uw                                            u:object_r:lwis_device:s0
+/dev/lwis-eeprom-smaug-oksoko                                               u:object_r:lwis_device:s0
 /dev/lwis-eeprom-smaug-sandworm                                             u:object_r:lwis_device:s0
 /dev/lwis-flash-lm3644                                                      u:object_r:lwis_device:s0
 /dev/lwis-g3aa                                                              u:object_r:lwis_device:s0
@@ -157,8 +158,8 @@
 /dev/lwis-sensor-nagual                                                     u:object_r:lwis_device:s0
 /dev/lwis-sensor-oksoko                                                     u:object_r:lwis_device:s0
 /dev/lwis-sensor-sandworm                                                   u:object_r:lwis_device:s0
+/dev/lwis-sensor-svarog                                                     u:object_r:lwis_device:s0
 /dev/lwis-slc                                                               u:object_r:lwis_device:s0
-/dev/lwis-eeprom-smaug-oksoko                                               u:object_r:lwis_device:s0
 /dev/lwis-top                                                               u:object_r:lwis_device:s0
 /dev/lwis-tof-tarasque                                                      u:object_r:lwis_device:s0
 # Although ispolin_ranging is not a real lwis_device but we treat it as an abstract lwis_device.
