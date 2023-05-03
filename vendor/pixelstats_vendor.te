@@ -25,3 +25,6 @@ allow pixelstats_vendor sysfs_pixelstats:file r_file_perms;
 #Thermal
 r_dir_file(pixelstats_vendor, sysfs_thermal)
 allow pixelstats_vendor sysfs_thermal:lnk_file r_file_perms;
+
+# Pca charge
+allow pixelstats_vendor sysfs_pca:file rw_file_perms;
