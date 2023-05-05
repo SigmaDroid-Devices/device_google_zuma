@@ -128,6 +128,8 @@
 /dev/lwis-eeprom-smaug-leshen-uw                                            u:object_r:lwis_device:s0
 /dev/lwis-eeprom-smaug-oksoko                                               u:object_r:lwis_device:s0
 /dev/lwis-eeprom-smaug-sandworm                                             u:object_r:lwis_device:s0
+/dev/lwis-eeprom-smaug-svarog                                               u:object_r:lwis_device:s0
+/dev/lwis-eeprom-smaug-svarog-outer                                         u:object_r:lwis_device:s0
 /dev/lwis-flash-lm3644                                                      u:object_r:lwis_device:s0
 /dev/lwis-g3aa                                                              u:object_r:lwis_device:s0
 /dev/lwis-gdc0                                                              u:object_r:lwis_device:s0
@@ -159,6 +161,7 @@
 /dev/lwis-sensor-oksoko                                                     u:object_r:lwis_device:s0
 /dev/lwis-sensor-sandworm                                                   u:object_r:lwis_device:s0
 /dev/lwis-sensor-svarog                                                     u:object_r:lwis_device:s0
+/dev/lwis-sensor-svarog-outer                                               u:object_r:lwis_device:s0
 /dev/lwis-slc                                                               u:object_r:lwis_device:s0
 /dev/lwis-top                                                               u:object_r:lwis_device:s0
 /dev/lwis-tof-tarasque                                                      u:object_r:lwis_device:s0
