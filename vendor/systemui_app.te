@@ -11,6 +11,7 @@ allow systemui_app mediaextractor_service:service_manager find;
 allow systemui_app mediametrics_service:service_manager find;
 allow systemui_app radio_service:service_manager find;
 allow systemui_app vr_manager_service:service_manager find;
+allow systemui_app nfc_service:service_manager find;
 
 get_prop(systemui_app, keyguard_config_prop)
 set_prop(systemui_app, bootanim_system_prop)
