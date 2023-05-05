@@ -1,4 +1,4 @@
-# Batery history
+# Battery history
 allow pixelstats_vendor battery_history_device:chr_file r_file_perms;
 
 # BCL
@@ -21,6 +21,10 @@ allow pixelstats_vendor sysfs_pcie:dir search;
 allow pixelstats_vendor sysfs_pcie:file rw_file_perms;
 
 allow pixelstats_vendor sysfs_pixelstats:file r_file_perms;
+
+# Display
+r_dir_file(pixelstats_vendor, sysfs_display)
+allow pixelstats_vendor sysfs_display:lnk_file r_file_perms;
 
 #Thermal
 r_dir_file(pixelstats_vendor, sysfs_thermal)
