@@ -19,6 +19,7 @@ allow hal_radioext_default radio_vendor_data_file:file create_file_perms;
 
 # Bluetooth
 allow hal_radioext_default hal_bluetooth_coexistence_hwservice:hwservice_manager find;
+allow hal_radioext_default hal_bluetooth_coexistence_service:service_manager find;
 
 # Twoshay
 binder_use(hal_radioext_default)
