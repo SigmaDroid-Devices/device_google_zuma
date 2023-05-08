@@ -152,6 +152,7 @@
 /dev/lwis-sensor-boitata                                                    u:object_r:lwis_device:s0
 /dev/lwis-sensor-buraq                                                      u:object_r:lwis_device:s0
 /dev/lwis-sensor-dokkaebi                                                   u:object_r:lwis_device:s0
+/dev/lwis-sensor-dokkaebi-tele                                              u:object_r:lwis_device:s0
 /dev/lwis-sensor-imentet                                                    u:object_r:lwis_device:s0
 /dev/lwis-sensor-kraken                                                     u:object_r:lwis_device:s0
 /dev/lwis-sensor-lamassu                                                    u:object_r:lwis_device:s0
