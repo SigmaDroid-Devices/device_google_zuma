@@ -15,6 +15,7 @@ hal_camera_default default_prop file b/280706211
 hal_camera_default edgetpu_app_server binder b/275001641
 hal_camera_default edgetpu_app_service service_manager b/275001641
 hal_input_processor_default vendor_display_prop file b/279680070
+hal_power_default hal_power_default capability b/280706610
 hal_secure_element_uicc hal_secure_element_hwservice hwservice_manager b/264483151
 hal_secure_element_uicc hidl_base_hwservice hwservice_manager b/264483151
 hal_uwb_default debugfs file b/279680213
@@ -26,6 +27,7 @@ kernel vendor_fw_file dir b/272166737
 kernel vendor_fw_file dir b/272166787
 mtectrl unlabeled dir b/264483752
 platform_app bootanim_system_prop property_service b/264483532
+priv_app vendor_modem_prop file b/280706292
 servicemanager hal_fingerprint_default binder b/264483753
 system_server default_android_service service_manager b/264483754
 systemui_app init unix_stream_socket b/269964574
