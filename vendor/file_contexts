@@ -105,6 +105,7 @@
 /dev/logbuffer_maxfg_flip_monitor                                           u:object_r:logbuffer_device:s0
 /dev/logbuffer_wc68                                                         u:object_r:logbuffer_device:s0
 /dev/logbuffer_bd                                                           u:object_r:logbuffer_device:s0
+/dev/logbuffer_cpif                                                         u:object_r:logbuffer_device:s0
 /dev/lwis-act-cornerfolk                                                    u:object_r:lwis_device:s0
 /dev/lwis-act-cornerfolk-dokkaebi                                           u:object_r:lwis_device:s0
 /dev/lwis-act-cornerfolk-oksoko                                             u:object_r:lwis_device:s0
