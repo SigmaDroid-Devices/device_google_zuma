@@ -33,3 +33,5 @@ user=_app isPrivApp=true name=com.google.pixel.digitalkey.timesync domain=vendor
 user=_app seinfo=platform name=com.android.systemui domain=systemui_app type=app_data_file levelFrom=all
 user=_app seinfo=platform name=com.android.systemui:* domain=systemui_app type=app_data_file levelFrom=all
 
+# Domain for EuiccGoogle
+user=_app isPrivApp=true seinfo=EuiccGoogle name=com.google.android.euicc domain=euicc_app type=app_data_file levelFrom=all
