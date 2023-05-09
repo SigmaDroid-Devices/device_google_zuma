@@ -11,6 +11,7 @@ google_camera_app legacy_permission_service service_manager b/264600171
 google_camera_app permission_checker_service service_manager b/264600171
 hal_audio_default hal_audio_default binder b/274374769
 hal_bootctl_default hal_bootctl_default capability b/274727372
+hal_camera_default default_prop file b/280706211
 hal_camera_default edgetpu_app_server binder b/275001641
 hal_camera_default edgetpu_app_service service_manager b/275001641
 hal_input_processor_default vendor_display_prop file b/279680070
@@ -29,6 +30,7 @@ servicemanager hal_fingerprint_default binder b/264483753
 system_server default_android_service service_manager b/264483754
 systemui_app init unix_stream_socket b/269964574
 systemui_app property_socket sock_file b/269964574
+systemui_app wm_trace_data_file dir b/280705998
 twoshay systemui_app binder b/269964558
 untrusted_app default_android_service service_manager b/264599934
 vendor_init device_config_configuration_prop property_service b/267714573
