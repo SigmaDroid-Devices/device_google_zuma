@@ -26,7 +26,6 @@ kernel vendor_fw_file dir b/272166737
 kernel vendor_fw_file dir b/272166787
 mtectrl unlabeled dir b/264483752
 platform_app bootanim_system_prop property_service b/264483532
-priv_app vendor_modem_prop file b/280706292
 servicemanager hal_fingerprint_default binder b/264483753
 system_server default_android_service service_manager b/264483754
 system_suspend sysfs_aoc dir b/281815594
