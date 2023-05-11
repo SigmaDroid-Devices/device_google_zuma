@@ -4,6 +4,7 @@ con_monitor_app dalvikcache_data_file dir b/264483670
 con_monitor_app dalvikcache_data_file file b/264483670
 con_monitor_app mnt_expand_file dir b/264483670
 con_monitor_app system_data_file lnk_file b/264483670
+dump_modem sysfs_dump_modem file b/281815537
 dumpstate app_zygote process b/279680264
 google_camera_app audio_service service_manager b/264600171
 google_camera_app backup_service service_manager b/264483456
@@ -28,6 +29,7 @@ platform_app bootanim_system_prop property_service b/264483532
 priv_app vendor_modem_prop file b/280706292
 servicemanager hal_fingerprint_default binder b/264483753
 system_server default_android_service service_manager b/264483754
+system_suspend sysfs_aoc dir b/281815594
 systemui_app init unix_stream_socket b/269964574
 systemui_app property_socket sock_file b/269964574
 systemui_app wm_trace_data_file dir b/280705998
