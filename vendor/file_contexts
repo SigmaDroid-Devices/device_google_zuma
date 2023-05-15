@@ -23,7 +23,7 @@
 /vendor/bin/trusty_apploader                                                u:object_r:trusty_apploader_exec:s0
 /vendor/bin/trusty_metricsd                                                 u:object_r:trusty_metricsd_exec:s0
 /vendor/bin/chre                                                            u:object_r:chre_exec:s0
-/vendor/bin/init\.uwb\.calib\.sh                                            u:object_r:vendor_uwb_init_exec:s0
+/vendor/bin/init_uwb_calib                                                  u:object_r:vendor_uwb_init_exec:s0
 /vendor/bin/hw/android\.hardware\.security\.keymint-service\.trusty         u:object_r:hal_keymint_default_exec:s0
 /vendor/bin/hw/android\.hardware\.security\.keymint-service\.rust\.trusty         u:object_r:hal_keymint_default_exec:s0
 /vendor/bin/ufs_firmware_update\.sh                                         u:object_r:ufs_firmware_update_exec:s0
@@ -38,12 +38,14 @@
 
 # Vendor
 /data/vendor/bluetooth(/.*)?                                                u:object_r:vendor_bt_data_file:s0
+/data/vendor/uwb(/.*)?                                                      u:object_r:uwb_data_vendor:s0
 
 # persist
 /mnt/vendor/persist/camera(/.*)?                                            u:object_r:persist_camera_file:s0
 /mnt/vendor/persist/display(/.*)?                                           u:object_r:persist_display_file:s0
 /mnt/vendor/persist/battery(/.*)?                                           u:object_r:persist_battery_file:s0
 /mnt/vendor/persist/ss(/.*)?                                                u:object_r:persist_ss_file:s0
+/mnt/vendor/persist/uwb(/.*)?                                               u:object_r:persist_uwb_file:s0
 
 # Devices
 /dev/bbd_pwrstat                                                            u:object_r:power_stats_device:s0
