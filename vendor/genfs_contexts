@@ -15,8 +15,10 @@ genfscon sysfs /devices/platform/17000090.devfreq_dsu/devfreq/17000090.devfreq_d
 genfscon sysfs /devices/platform/170000a0.devfreq_bci/devfreq/170000a0.devfreq_bci/max_freq             u:object_r:sysfs_fabric:s0
 
 # OSPM
-genfscon sysfs /devices/platform/cpupm/cpupm/cpd_cl1                    u:object_r:sysfs_ospm:s0
-genfscon sysfs /devices/platform/cpupm/cpupm/cpd_cl2                    u:object_r:sysfs_ospm:s0
+genfscon sysfs /devices/platform/cpupm/cpupm/cpd_cl1                                                    u:object_r:sysfs_ospm:s0
+genfscon sysfs /devices/platform/cpupm/cpupm/cpd_cl2                                                    u:object_r:sysfs_ospm:s0
+genfscon sysfs /devices/platform/cpupm/cpupm/cpd_cl1_target_residency                                   u:object_r:sysfs_ospm:s0
+genfscon sysfs /devices/platform/cpupm/cpupm/cpd_cl2_target_residency                                   u:object_r:sysfs_ospm:s0
 
 # EdgeTPU
 genfscon sysfs /devices/platform/1a000000.rio                           u:object_r:sysfs_edgetpu:s0
