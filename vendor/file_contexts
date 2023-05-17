@@ -110,7 +110,9 @@
 /dev/logbuffer_cpif                                                         u:object_r:logbuffer_device:s0
 /dev/lwis-act-cornerfolk                                                    u:object_r:lwis_device:s0
 /dev/lwis-act-cornerfolk-dokkaebi                                           u:object_r:lwis_device:s0
+/dev/lwis-act-cornerfolk-nautilus                                           u:object_r:lwis_device:s0
 /dev/lwis-act-cornerfolk-oksoko                                             u:object_r:lwis_device:s0
+/dev/lwis-act-cornerfolk-oksoko-nautilus                                    u:object_r:lwis_device:s0
 /dev/lwis-act-cornerfolk-sandworm                                           u:object_r:lwis_device:s0
 /dev/lwis-act-jotnar                                                        u:object_r:lwis_device:s0
 /dev/lwis-act-nessie                                                        u:object_r:lwis_device:s0
@@ -120,6 +122,7 @@
 /dev/lwis-csi                                                               u:object_r:lwis_device:s0
 /dev/lwis-dpm                                                               u:object_r:lwis_device:s0
 /dev/lwis-eeprom-djinn                                                      u:object_r:lwis_device:s0
+/dev/lwis-eeprom-djinn-nautilus                                             u:object_r:lwis_device:s0
 /dev/lwis-eeprom-gargoyle                                                   u:object_r:lwis_device:s0
 /dev/lwis-eeprom-humbaba                                                    u:object_r:lwis_device:s0
 /dev/lwis-eeprom-jotnar                                                     u:object_r:lwis_device:s0
@@ -130,6 +133,7 @@
 /dev/lwis-eeprom-smaug-leshen                                               u:object_r:lwis_device:s0
 /dev/lwis-eeprom-smaug-leshen-uw                                            u:object_r:lwis_device:s0
 /dev/lwis-eeprom-smaug-oksoko                                               u:object_r:lwis_device:s0
+/dev/lwis-eeprom-smaug-oksoko-nautilus                                      u:object_r:lwis_device:s0
 /dev/lwis-eeprom-smaug-sandworm                                             u:object_r:lwis_device:s0
 /dev/lwis-eeprom-smaug-svarog                                               u:object_r:lwis_device:s0
 /dev/lwis-eeprom-smaug-svarog-outer                                         u:object_r:lwis_device:s0
@@ -146,6 +150,7 @@
 /dev/lwis-lme                                                               u:object_r:lwis_device:s0
 /dev/lwis-mcsc                                                              u:object_r:lwis_device:s0
 /dev/lwis-ois-djinn                                                         u:object_r:lwis_device:s0
+/dev/lwis-ois-djinn-nautilus                                                u:object_r:lwis_device:s0
 /dev/lwis-ois-gargoyle                                                      u:object_r:lwis_device:s0
 /dev/lwis-ois-humbaba                                                       u:object_r:lwis_device:s0
 /dev/lwis-ois-jotnar                                                        u:object_r:lwis_device:s0
@@ -153,8 +158,10 @@
 /dev/lwis-pdp                                                               u:object_r:lwis_device:s0
 /dev/lwis-scsc                                                              u:object_r:lwis_device:s0
 /dev/lwis-sensor-boitata                                                    u:object_r:lwis_device:s0
+/dev/lwis-sensor-boitata-nautilus                                           u:object_r:lwis_device:s0
 /dev/lwis-sensor-buraq                                                      u:object_r:lwis_device:s0
 /dev/lwis-sensor-dokkaebi                                                   u:object_r:lwis_device:s0
+/dev/lwis-sensor-dokkaebi-nautius                                           u:object_r:lwis_device:s0
 /dev/lwis-sensor-dokkaebi-tele                                              u:object_r:lwis_device:s0
 /dev/lwis-sensor-imentet                                                    u:object_r:lwis_device:s0
 /dev/lwis-sensor-kraken                                                     u:object_r:lwis_device:s0
@@ -163,6 +170,7 @@
 /dev/lwis-sensor-leshen-uw                                                  u:object_r:lwis_device:s0
 /dev/lwis-sensor-nagual                                                     u:object_r:lwis_device:s0
 /dev/lwis-sensor-oksoko                                                     u:object_r:lwis_device:s0
+/dev/lwis-sensor-oksoko-nautilus                                            u:object_r:lwis_device:s0
 /dev/lwis-sensor-sandworm                                                   u:object_r:lwis_device:s0
 /dev/lwis-sensor-svarog                                                     u:object_r:lwis_device:s0
 /dev/lwis-sensor-svarog-outer                                               u:object_r:lwis_device:s0
