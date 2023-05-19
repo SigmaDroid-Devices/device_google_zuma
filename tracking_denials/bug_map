@@ -15,8 +15,6 @@ hal_bootctl_default hal_bootctl_default capability b/274727372
 hal_camera_default default_prop file b/280706211
 hal_input_processor_default vendor_display_prop file b/279680070
 hal_power_default hal_power_default capability b/280706610
-hal_secure_element_uicc hal_secure_element_hwservice hwservice_manager b/264483151
-hal_secure_element_uicc hidl_base_hwservice hwservice_manager b/264483151
 hal_uwb_default debugfs file b/279680213
 incidentd apex_art_data_file file b/272628762
 incidentd incidentd anon_inode b/274374992
