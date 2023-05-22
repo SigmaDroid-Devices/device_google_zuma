@@ -16,6 +16,7 @@
 /vendor/bin/hw/google\.hardware\.media\.c2@2\.0-service                     u:object_r:mediacodec_google_exec:s0
 /vendor/bin/dump/dump_wlan\.sh                                              u:object_r:dump_wlan_exec:s0
 /vendor/bin/dump/dump_cma\.sh                                               u:object_r:dump_cma_exec:s0
+/vendor/bin/dump/dump_gsa\.sh                                               u:object_r:dump_gsa_exec:s0
 /vendor/bin/dump/dump_power\.sh                                             u:object_r:dump_power_exec:s0
 /vendor/bin/rlsservice                                                      u:object_r:rlsservice_exec:s0
 /vendor/bin/tcpdump_logger                                                  u:object_r:tcpdump_logger_exec:s0
