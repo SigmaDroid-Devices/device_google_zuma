@@ -158,6 +158,9 @@ genfscon sysfs /devices/platform/13120000.pcie/link_stats/link_up_average       
 genfscon sysfs /devices/platform/13120000.pcie/link_stats/link_up_failures              u:object_r:sysfs_pcie:s0
 genfscon sysfs /devices/platform/13120000.pcie/link_stats/pll_lock_average              u:object_r:sysfs_pcie:s0
 
+# disable contaminant detection
+genfscon sysfs /devices/platform/10cb0000.hsi2c                                         u:object_r:sysfs_batteryinfo:s0
+
 # Battery
 genfscon sysfs /devices/platform/google,battery/power_supply/battery                    u:object_r:sysfs_batteryinfo:s0
 genfscon sysfs /devices/platform/google,cpm                                             u:object_r:sysfs_batteryinfo:s0
