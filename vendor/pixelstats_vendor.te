@@ -11,6 +11,7 @@ get_prop(pixelstats_vendor, vendor_brownout_reason_prop);
 #vendor-metrics
 r_dir_file(pixelstats_vendor, sysfs_vendor_metrics)
 allow pixelstats_vendor sysfs_vendor_metrics:lnk_file r_file_perms;
+allow pixelstats_vendor sysfs_vendor_metrics:file w_file_perms;
 
 # Wireless charge
 allow pixelstats_vendor sysfs_wlc:dir search;
