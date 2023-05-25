@@ -37,3 +37,7 @@ hal_client_domain(hal_fingerprint_default, hal_thermal);
 # allow fingerprint to read sysfs_leds
 allow hal_fingerprint_default sysfs_leds:file r_file_perms;
 allow hal_fingerprint_default sysfs_leds:dir r_dir_perms;
+
+# Allow fingerprint to access sysfs_aoc_udfps
+allow hal_fingerprint_default sysfs_aoc:dir search;
+allow hal_fingerprint_default sysfs_aoc_udfps:file rw_file_perms;
