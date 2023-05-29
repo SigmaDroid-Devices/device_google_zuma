@@ -10,7 +10,7 @@ allow kernel self:perf_event cpu;
 
 no_debugfs_restriction(`
   allow kernel vendor_battery_debugfs:dir search;
-  allow kernel vendor_maxfg_debugfs:dir search;
 ')
 
+dontaudit kernel vendor_maxfg_debugfs:dir search;
 allow kernel vendor_regmap_debugfs:dir search;
