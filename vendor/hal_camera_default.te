@@ -80,6 +80,9 @@ allow hal_camera_default sysfs_leds:file r_file_perms;
 allow hal_camera_default hal_radioext_hwservice:hwservice_manager find;
 binder_call(hal_camera_default, hal_radioext_default);
 
+# Allows camera HAL to access the hw_jpeg /dev/video12.
+allow hal_camera_default hw_jpg_device:chr_file rw_file_perms;
+
 # For camera hal to talk with rlsservice
 allow hal_camera_default rls_service:service_manager find;
 binder_call(hal_camera_default, rlsservice)
