@@ -6,7 +6,6 @@ google_camera_app legacy_permission_service service_manager b/264600171
 google_camera_app permission_checker_service service_manager b/264600171
 hal_audio_default hal_audio_default binder b/274374769
 hal_bootctl_default hal_bootctl_default capability b/274727372
-hal_camera_default default_prop file b/280706211
 hal_input_processor_default vendor_display_prop file b/279680070
 hal_power_default hal_power_default capability b/280706610
 hal_uwb_default debugfs file b/279680213
