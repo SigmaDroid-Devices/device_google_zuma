@@ -199,6 +199,8 @@
 /dev/dma_heap/vframe-secure                                                 u:object_r:dmabuf_system_secure_heap_device:s0
 /dev/dma_heap/vscaler-secure                                                u:object_r:vscaler_secure_heap_device:s0
 /dev/dma_heap/vstream-secure                                                u:object_r:dmabuf_system_secure_heap_device:s0
+/dev/dma_heap/gcma_camera                                                   u:object_r:gcma_camera_heap_device:s0
+/dev/dma_heap/gcma_camera-uncached                                          u:object_r:gcma_camera_heap_device:s0
 /dev/uci                                                                    u:object_r:uci_device:s0
 /dev/video12                                                                u:object_r:hw_jpg_device:s0
 
