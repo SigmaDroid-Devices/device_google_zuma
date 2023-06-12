@@ -9,9 +9,8 @@ allow google_camera_app mediaextractor_service:service_manager find;
 allow google_camera_app mediametrics_service:service_manager find;
 allow google_camera_app mediaserver_service:service_manager find;
 
-# Allows GCA to acccess the GXP device and search for the firmware file.
+# Allows GCA to acccess the GXP device.
 allow google_camera_app gxp_device:chr_file rw_file_perms;
-allow google_camera_app vendor_fw_file:dir search;
 
 # Allows GCA to access the PowerHAL.
 hal_client_domain(google_camera_app, hal_power)
