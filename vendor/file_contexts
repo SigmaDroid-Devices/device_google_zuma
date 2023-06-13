@@ -33,6 +33,7 @@
 # Vendor Firmwares
 /vendor/firmware(/.*)?                                                      u:object_r:vendor_fw_file:s0
 /vendor/lib64/arm\.mali\.platform-V1-ndk\.so                                u:object_r:same_process_hal_file:s0
+/vendor/lib64/arm\.mali\.platform-V2-ndk\.so                                u:object_r:same_process_hal_file:s0
 
 # Vendor libraries
 /vendor/lib(64)?/libgxp\.so                                                 u:object_r:same_process_hal_file:s0
