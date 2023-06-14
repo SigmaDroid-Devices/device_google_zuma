@@ -139,7 +139,16 @@ genfscon sysfs /devices/platform/acpm_mfd_bus@15500000/i2c-0/0-001f/s2mpg14-mete
 genfscon sysfs /devices/platform/acpm_mfd_bus@15510000/i2c-1/1-002f/s2mpg15-meter/s2mpg15-odpm/iio:device1/lpf_current   u:object_r:sysfs_odpm:s0
 
 # Power Stats
+genfscon sysfs /devices/platform/10c80000.hsi2c/i2c-0/0-0008/power_stats u:object_r:sysfs_power_stats:s0
+genfscon sysfs /devices/platform/10c80000.hsi2c/i2c-1/1-0008/power_stats u:object_r:sysfs_power_stats:s0
+genfscon sysfs /devices/platform/10c80000.hsi2c/i2c-2/2-0008/power_stats u:object_r:sysfs_power_stats:s0
+genfscon sysfs /devices/platform/10c80000.hsi2c/i2c-3/3-0008/power_stats u:object_r:sysfs_power_stats:s0
+genfscon sysfs /devices/platform/10c80000.hsi2c/i2c-4/4-0008/power_stats u:object_r:sysfs_power_stats:s0
+genfscon sysfs /devices/platform/10c80000.hsi2c/i2c-5/5-0008/power_stats u:object_r:sysfs_power_stats:s0
 genfscon sysfs /devices/platform/10c80000.hsi2c/i2c-6/6-0008/power_stats u:object_r:sysfs_power_stats:s0
+genfscon sysfs /devices/platform/10c80000.hsi2c/i2c-7/7-0008/power_stats u:object_r:sysfs_power_stats:s0
+genfscon sysfs /devices/platform/10c80000.hsi2c/i2c-8/8-0008/power_stats u:object_r:sysfs_power_stats:s0
+genfscon sysfs /devices/platform/10c80000.hsi2c/i2c-9/9-0008/power_stats u:object_r:sysfs_power_stats:s0
 genfscon sysfs /devices/platform/12100000.pcie/power_stats               u:object_r:sysfs_power_stats:s0
 genfscon sysfs /devices/platform/13120000.pcie/power_stats               u:object_r:sysfs_power_stats:s0
 genfscon sysfs /devices/platform/cpif/modem/power_stats                  u:object_r:sysfs_power_stats:s0
