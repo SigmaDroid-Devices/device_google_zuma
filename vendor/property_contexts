@@ -23,3 +23,6 @@ vendor.mali.                               u:object_r:vendor_arm_runtime_option_
 
 # ArmNN configuration
 ro.vendor.armnn.                           u:object_r:vendor_armnn_config_prop:s0 prefix
+
+# Gxp
+vendor.gxp.                                u:object_r:vendor_gxp_prop:s0

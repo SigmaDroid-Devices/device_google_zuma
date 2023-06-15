@@ -15,6 +15,9 @@ type sysfs_aoc_udfps, sysfs_type, fs_type;
 # Trusty
 type sysfs_trusty, sysfs_type, fs_type;
 
+# Gxp sysfs file
+type sysfs_gxp, sysfs_type, fs_type;
+
 # mount FS
 allow proc_vendor_sched proc:filesystem associate;
 allow bootdevice_sysdev sysfs:filesystem associate;

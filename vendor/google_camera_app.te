@@ -12,6 +12,9 @@ allow google_camera_app mediaserver_service:service_manager find;
 # Allows GCA to acccess the GXP device.
 allow google_camera_app gxp_device:chr_file rw_file_perms;
 
+# Allow GCA to access the GXP properies.
+get_prop(google_camera_app, vendor_gxp_prop)
+
 # Allows GCA to access the PowerHAL.
 hal_client_domain(google_camera_app, hal_power)
 
