@@ -23,6 +23,9 @@ genfscon sysfs /devices/platform/cpupm/cpupm/cpd_cl2_target_residency           
 # EdgeTPU
 genfscon sysfs /devices/platform/1a000000.rio                           u:object_r:sysfs_edgetpu:s0
 
+# Gxp
+genfscon sysfs /devices/platform/20c00000.callisto                      u:object_r:sysfs_gxp:s0
+
 # debugfs
 genfscon debugfs /google_charger                                        u:object_r:vendor_charger_debugfs:s0
 genfscon debugfs /max77729_pmic                                         u:object_r:vendor_charger_debugfs:s0
