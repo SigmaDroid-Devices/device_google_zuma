@@ -1,3 +1,4 @@
+dump_gxp vendor_gxp_prop file b/287898138
 hal_camera_default default_prop file b/286508419
 insmod-sh vendor_regmap_debugfs dir b/274727542
 insmod-sh insmod-sh key b/274374722
