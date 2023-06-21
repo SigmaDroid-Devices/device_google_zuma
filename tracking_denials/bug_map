@@ -6,6 +6,5 @@ incidentd debugfs_wakeup_sources file b/288049561
 incidentd incidentd anon_inode b/288049561
 insmod-sh insmod-sh key b/274374722
 insmod-sh vendor_regmap_debugfs dir b/274727542
-kernel vendor_fw_file dir b/288049349
 mtectrl unlabeled dir b/264483752
 systemui_app wm_trace_data_file dir b/288049075
