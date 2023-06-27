@@ -1,2 +1,0 @@
-# Telephony
-telephony.ril.silent_reset    u:object_r:telephony_ril_prop:s0    exact    bool
