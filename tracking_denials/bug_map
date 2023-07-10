@@ -7,5 +7,6 @@ incidentd incidentd anon_inode b/288049561
 insmod-sh insmod-sh key b/274374722
 insmod-sh vendor_regmap_debugfs dir b/274727542
 mtectrl unlabeled dir b/264483752
+platform_app bootanim_system_prop property_service b/289480799
 systemui_app wm_trace_data_file dir b/288049075
 vendor_init proc file b/289856761
