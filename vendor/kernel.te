@@ -17,5 +17,7 @@ dontaudit kernel sepolicy_file:file getattr;
 dontaudit kernel system_bootstrap_lib_file:dir getattr;
 dontaudit kernel system_bootstrap_lib_file:file getattr;
 dontaudit kernel system_dlkm_file:dir getattr;
+dontaudit kernel vendor_battery_debugfs:dir search;
 
 allow kernel vendor_regmap_debugfs:dir search;
+
