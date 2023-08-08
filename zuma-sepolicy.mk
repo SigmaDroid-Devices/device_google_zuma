@@ -6,6 +6,7 @@ PRODUCT_PRIVATE_SEPOLICY_DIRS += device/google/zuma-sepolicy/radio/private
 # unresolved SELinux error log with bug tracking
 BOARD_SEPOLICY_DIRS += device/google/zuma-sepolicy/tracking_denials
 
+PRODUCT_PUBLIC_SEPOLICY_DIRS += device/google/zuma-sepolicy/public
 PRODUCT_PRIVATE_SEPOLICY_DIRS += device/google/zuma-sepolicy/private
 
 # system_ext
