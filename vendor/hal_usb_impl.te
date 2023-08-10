@@ -15,3 +15,7 @@ wakelock_use(hal_usb_impl);
 
 # For interfacing with ThermalHAL
 hal_client_domain(hal_usb_impl, hal_thermal);
+
+# For monitoring usb sysfs attributes
+allow hal_usb_impl sysfs_wakeup:dir search;
+allow hal_usb_impl sysfs_wakeup:file r_file_perms;
