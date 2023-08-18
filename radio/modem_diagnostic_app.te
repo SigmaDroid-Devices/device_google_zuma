@@ -34,8 +34,4 @@ userdebug_or_eng(`
   allow modem_diagnostic_app sysfs_batteryinfo:dir search;
 
   dontaudit modem_diagnostic_app default_prop:file r_file_perms;
-
-  # Modem Log Mask Library Permissions
-  binder_call(modem_diagnostic_app, liboemservice_proxy)
-  allow modem_diagnostic_app liboemservice_proxy:service_manager find;
 ')
