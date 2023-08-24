@@ -9,10 +9,6 @@ allow chre aoc_device:chr_file rw_file_perms;
 allow chre sysfs_aoc:dir search;
 allow chre sysfs_aoc_boottime:file r_file_perms;
 
-# Allow CHRE to write to data to chre data directory
-allow chre chre_data_file:dir create_dir_perms;
-allow chre chre_data_file:file create_file_perms;
-
 # Allow CHRE to create thread to watch AOC's device
 allow chre device:dir r_dir_perms;
 
