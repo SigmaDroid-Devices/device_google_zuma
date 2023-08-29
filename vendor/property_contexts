@@ -27,3 +27,6 @@ ro.vendor.armnn.                           u:object_r:vendor_armnn_config_prop:s
 
 # Gxp
 vendor.gxp.                                u:object_r:vendor_gxp_prop:s0
+
+# Display
+persist.vendor.primarydisplay.             u:object_r:vendor_display_prop:s0 prefix
