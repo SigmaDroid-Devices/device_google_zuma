@@ -23,3 +23,5 @@ vendor.mali.                               u:object_r:vendor_arm_runtime_option_
 
 # Display
 persist.vendor.primarydisplay.             u:object_r:vendor_display_prop:s0 prefix
+ro.vendor.primarydisplay.vrr.hs.vsync_hz   u:object_r:vendor_display_prop:s0 exact int
+ro.vendor.primarydisplay.vrr.ns.vsync_hz   u:object_r:vendor_display_prop:s0 exact int
