@@ -4,3 +4,5 @@ incidentd incidentd anon_inode b/288049561
 insmod-sh insmod-sh key b/274374722
 mtectrl unlabeled dir b/264483752
 systemui_app wm_trace_data_file dir b/288049075
+pixelstats_vendor sysfs file b/299553682
+system_server sysfs_batteryinfo file b/294967729
