@@ -35,6 +35,7 @@ genfscon debugfs /google_battery                                        u:object
 genfscon debugfs /pm_genpd/pm_genpd_summary                             u:object_r:vendor_pm_genpd_debugfs:s0
 genfscon debugfs /usb                                                   u:object_r:vendor_usb_debugfs:s0
 genfscon debugfs /maxfg                                                 u:object_r:vendor_maxfg_debugfs:s0
+genfscon debugfs /regmap                                                u:object_r:vendor_regmap_debugfs:s0
 
 # Extcon
 genfscon sysfs /devices/platform/10cb0000.hsi2c/i2c-0/0-0025/extcon/extcon0   u:object_r:sysfs_extcon:s0
@@ -93,6 +94,7 @@ genfscon sysfs /devices/platform/exynos-drm/tui_status                          
 genfscon sysfs /devices/platform/19440000.drmdsim/19440000.drmdsim.0/backlight/panel0-backlight/als_table u:object_r:sysfs_write_leds:s0
 genfscon sysfs /devices/platform/19440000.drmdsim/19440000.drmdsim.0/error_count_te                       u:object_r:sysfs_display:s0
 genfscon sysfs /devices/platform/19440000.drmdsim/19440000.drmdsim.0/error_count_unknown                  u:object_r:sysfs_display:s0
+genfscon sysfs /devices/platform/110f0000.drmdp/drm-displayport/dp_hotplug_error_code                     u:object_r:sysfs_display:s0
 
 # ACPM
 genfscon sysfs /devices/platform/acpm_stats                                                            u:object_r:sysfs_acpm_stats:s0
@@ -530,6 +532,9 @@ genfscon sysfs /devices/platform/17000000.aoc/control/memory_votes_ff1      u:ob
 genfscon sysfs /devices/platform/17000000.aoc/control/udfps_set_clock_source    u:object_r:sysfs_aoc_udfps:s0
 genfscon sysfs /devices/platform/17000000.aoc/control/udfps_get_osc_freq        u:object_r:sysfs_aoc_udfps:s0
 genfscon sysfs /devices/platform/17000000.aoc/control/udfps_get_disp_freq       u:object_r:sysfs_aoc_udfps:s0
+
+# Faceauth
+genfscon sysfs /sys/kernel/vendor_mm/gcma_heap/trusty:faceauth_rawimage_heap/max_usage_kb u:object_r:sysfs_faceauth_rawimage_heap:s0
 
 # OTA
 genfscon sysfs /devices/platform/13200000.ufs/pixel/boot_lun_enabled           u:object_r:sysfs_ota:s0

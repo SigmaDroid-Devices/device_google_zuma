@@ -26,6 +26,7 @@ type vendor_battery_debugfs, fs_type, debugfs_type;
 type vendor_pm_genpd_debugfs, fs_type, debugfs_type;
 type vendor_usb_debugfs, fs_type, debugfs_type;
 type vendor_maxfg_debugfs, fs_type, debugfs_type;
+type vendor_regmap_debugfs, fs_type, debugfs_type;
 
 # WLC
 type sysfs_wlc, sysfs_type, fs_type;
@@ -55,3 +56,4 @@ type sysfs_ospm, sysfs_type, fs_type;
 
 # GSA
 type sysfs_gsa_log, sysfs_type, fs_type;
+type sysfs_faceauth_rawimage_heap, sysfs_type, fs_type;
