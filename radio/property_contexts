@@ -57,6 +57,3 @@ persist.vendor.gps.                        u:object_r:vendor_gps_prop:s0
 persist.vendor.tcpdump.log.alwayson        u:object_r:vendor_tcpdump_log_prop:s0
 vendor.tcpdump.                            u:object_r:vendor_tcpdump_log_prop:s0
 
-# SJTAG lock state
-ro.vendor.sjtag_ap_is_unlocked             u:object_r:vendor_sjtag_lock_state_prop:s0
-ro.vendor.sjtag_gsa_is_unlocked            u:object_r:vendor_sjtag_lock_state_prop:s0
