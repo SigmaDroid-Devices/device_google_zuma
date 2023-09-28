@@ -11,7 +11,6 @@
 /vendor/bin/cbd                                                             u:object_r:cbd_exec:s0
 /vendor/bin/hw/rild_exynos                                                  u:object_r:rild_exec:s0
 /vendor/bin/hw/vendor\.google\.radioext@1\.0-service                        u:object_r:hal_radioext_default_exec:s0
-/vendor/bin/init\.check_ap_pd_auth\.sh                                      u:object_r:init-check_ap_pd_auth-sh_exec:s0
 
 # Config files
 /vendor/etc/modem_ml_models\.conf                                           u:object_r:modem_config_file:s0
