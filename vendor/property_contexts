@@ -22,6 +22,7 @@ vendor.dynamic_sensor.                     u:object_r:vendor_dynamic_sensor_prop
 vendor.mali.                               u:object_r:vendor_arm_runtime_option_prop:s0 prefix
 
 # Display
-persist.vendor.primarydisplay.             u:object_r:vendor_display_prop:s0 prefix
-ro.vendor.primarydisplay.vrr.hs.vsync_hz   u:object_r:vendor_display_prop:s0 exact int
-ro.vendor.primarydisplay.vrr.ns.vsync_hz   u:object_r:vendor_display_prop:s0 exact int
+persist.vendor.primarydisplay.                                 u:object_r:vendor_display_prop:s0 prefix
+ro.vendor.primarydisplay.vrr.enabled                           u:object_r:vendor_display_prop:s0 exact bool
+ro.vendor.primarydisplay.vrr.expected_present.headsup_ns       u:object_r:vendor_display_prop:s0 exact int
+ro.vendor.primarydisplay.vrr.expected_present.timeout_ns       u:object_r:vendor_display_prop:s0 exact int
