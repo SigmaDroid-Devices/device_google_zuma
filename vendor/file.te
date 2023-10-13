@@ -39,6 +39,7 @@ type chre_socket, file_type;
 
 # BT
 type vendor_bt_data_file, file_type, data_file_type;
+type sysfs_bt_uart, sysfs_type, fs_type;
 
 # Data
 type sensor_reg_data_file, file_type, data_file_type;

@@ -497,6 +497,9 @@ genfscon sysfs /devices/platform/17000000.aoc/control/udfps_get_disp_freq       
 # Faceauth
 genfscon sysfs /sys/kernel/vendor_mm/gcma_heap/trusty:faceauth_rawimage_heap/max_usage_kb u:object_r:sysfs_faceauth_rawimage_heap:s0
 
+# Bluetooth
+genfscon sysfs /devices/platform/155d0000.serial/uart_dbg                    u:object_r:sysfs_bt_uart:s0
+
 # OTA
 genfscon sysfs /devices/platform/13200000.ufs/pixel/boot_lun_enabled           u:object_r:sysfs_ota:s0
 
