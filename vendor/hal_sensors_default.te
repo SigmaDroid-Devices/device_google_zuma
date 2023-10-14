@@ -62,3 +62,6 @@ allow hal_sensors_default sysfs_chosen:file r_file_perms;
 # Allow display_info_service access to the backlight driver.
 allow hal_sensors_default sysfs_leds:dir search;
 allow hal_sensors_default sysfs_leds:file r_file_perms;
+
+# Allow sensor HAL to reset AOC.
+allow hal_sensors_default sysfs_aoc_reset:file rw_file_perms;
