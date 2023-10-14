@@ -142,6 +142,8 @@ genfscon sysfs /devices/platform/acpm_mfd_bus@15510000/i2c-1/1-002f/s2mpg15-mete
 genfscon sysfs /devices/platform/acpm_mfd_bus@15510000/i2c-1/1-002f/s2mpg15-meter/s2mpg15-odpm/iio:device1/sampling_rate u:object_r:sysfs_odpm:s0
 genfscon sysfs /devices/platform/acpm_mfd_bus@15500000/i2c-0/0-001f/s2mpg14-meter/s2mpg14-odpm/iio:device0/lpf_current   u:object_r:sysfs_odpm:s0
 genfscon sysfs /devices/platform/acpm_mfd_bus@15510000/i2c-1/1-002f/s2mpg15-meter/s2mpg15-odpm/iio:device1/lpf_current   u:object_r:sysfs_odpm:s0
+genfscon sysfs /devices/platform/acpm_mfd_bus@15500000/i2c-1/1-001f/s2mpg14-meter/s2mpg14-odpm/iio:device1/lpf_current   u:object_r:sysfs_odpm:s0
+genfscon sysfs /devices/platform/acpm_mfd_bus@15510000/i2c-0/0-002f/s2mpg15-meter/s2mpg15-odpm/iio:device0/lpf_current   u:object_r:sysfs_odpm:s0
 
 # Power Stats
 genfscon sysfs /devices/platform/10c80000.hsi2c/i2c-0/0-0008/power_stats u:object_r:sysfs_power_stats:s0
@@ -289,6 +291,9 @@ genfscon sysfs /devices/platform/10cb0000.hsi2c/i2c-6/6-0057/chg_stats          
 genfscon sysfs /devices/platform/10cb0000.hsi2c/i2c-7/7-0057/chg_stats                  u:object_r:sysfs_pca:s0
 genfscon sysfs /devices/platform/10cb0000.hsi2c/i2c-8/8-0057/chg_stats                  u:object_r:sysfs_pca:s0
 genfscon sysfs /devices/platform/10cb0000.hsi2c/i2c-9/9-0057/chg_stats                  u:object_r:sysfs_pca:s0
+genfscon sysfs /class/power_supply/wireless/device/version                              u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /class/power_supply/wireless/device/status                               u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /class/power_supply/wireless/device/fw_rev                               u:object_r:sysfs_batteryinfo:s0
 
 # wake up nodes
 genfscon sysfs /devices/platform/10c80000.hsi2c/i2c-0/6-0008/wakeup/wakeup                                                u:object_r:sysfs_wakeup:s0
