@@ -22,5 +22,8 @@ hal_client_domain(google_camera_app, hal_power)
 allow google_camera_app edgetpu_app_service:service_manager find;
 allow google_camera_app edgetpu_device:chr_file { getattr read write ioctl map };
 
+# Allows GCA to access the hw_jpeg /dev/video12.
+allow google_camera_app hw_jpg_device:chr_file rw_file_perms;
+
 # Library code may try to access vendor properties, but should be denied
 dontaudit google_camera_app vendor_default_prop:file { getattr map open };
