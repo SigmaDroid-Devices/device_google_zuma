@@ -32,6 +32,7 @@ userdebug_or_eng(`
   allow dump_power vendor_charger_debugfs:dir r_dir_perms;
   allow dump_power vendor_charger_debugfs:file r_file_perms;
   allow dump_power vendor_usb_debugfs:dir r_dir_perms;
+  allow dump_power vendor_usb_debugfs:file r_file_perms;
   allow dump_power vendor_votable_debugfs:dir r_dir_perms;
   allow dump_power vendor_votable_debugfs:file r_file_perms;
   allow dump_power vendor_maxfg_debugfs:dir r_dir_perms;
