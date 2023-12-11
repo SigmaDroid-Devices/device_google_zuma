@@ -9,10 +9,13 @@ incidentd incidentd anon_inode b/288049561
 insmod-sh insmod-sh key b/274374722
 mtectrl unlabeled dir b/264483752
 pixelstats_vendor sysfs file b/299553682
+rild default_prop file b/315720601
+rild default_prop file b/315720874
 surfaceflinger selinuxfs file b/313804706
 system_server sysfs_batteryinfo file b/294967729
 systemui_app wm_trace_data_file dir b/288049075
 twoshay chre_socket sock_file b/315104508
 twoshay chre_socket sock_file b/315104941
 vendor_init default_prop file b/315104235
+vendor_init default_prop file b/315104803
 vendor_init default_prop property_service b/315104235
