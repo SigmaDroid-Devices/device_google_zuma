@@ -34,6 +34,7 @@ genfscon debugfs /gvotables                                             u:object
 genfscon debugfs /google_battery                                        u:object_r:vendor_battery_debugfs:s0
 genfscon debugfs /pm_genpd/pm_genpd_summary                             u:object_r:vendor_pm_genpd_debugfs:s0
 genfscon debugfs /usb                                                   u:object_r:vendor_usb_debugfs:s0
+genfscon debugfs /eusb_repeater                                         u:object_r:vendor_usb_debugfs:s0
 genfscon debugfs /maxfg                                                 u:object_r:vendor_maxfg_debugfs:s0
 genfscon debugfs /regmap                                                u:object_r:vendor_regmap_debugfs:s0
 
@@ -235,6 +236,8 @@ genfscon sysfs /devices/platform/17000000.aoc/com.google.usf.non_wake_up/wakeup/
 genfscon sysfs /devices/platform/17000000.aoc/com.google.usf/wakeup/wakeup                                                u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/17000000.aoc/com.google.chre.non_wake_up/wakeup                                          u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/17000000.aoc/com.google.chre/wakeup                                                      u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/17000000.aoc/com.google.bt.non_wake_up/wakeup                                            u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/17000000.aoc/com.google.bt/wakeup                                                        u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/17000000.aoc/usb_control/wakeup                                                          u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/17000000.aoc/wakeup                                                                      u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/acpm_mfd_bus@15500000/i2c-7/7-001f/s2mpg14-meter/s2mpg14-odpm/wakeup                     u:object_r:sysfs_wakeup:s0
