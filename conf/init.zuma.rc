@@ -119,6 +119,9 @@ on init
     write /sys/block/zram0/comp_algorithm lz77eh
     write /proc/sys/vm/page-cluster 0
 
+    # adjust PCP high level
+    write /proc/sys/vm/percpu_pagelist_high_fraction 430
+
     # Some user code relies on ro.boot.hardware.revision
     setprop ro.boot.hardware.revision ${ro.revision}
 
@@ -408,6 +411,9 @@ on post-fs-data
 
     # Modem extended log folder
     mkdir /data/vendor/radio/extended_logs 0770 radio system
+
+    # Log Mask Library Mask storage paths
+    mkdir /data/vendor/radio/log_masks 777 system system
 
     # Modem MDS log folder
     mkdir /data/vendor/radio/mds 0771 radio system

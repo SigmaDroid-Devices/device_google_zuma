@@ -31,6 +31,7 @@ include device/google/gs-common/soc/freq.mk
 include device/google/gs-common/gps/dump/log.mk
 include device/google/gs-common/bcmbt/dump/dumplog.mk
 include device/google/gs-common/display/dump.mk
+include device/google/gs-common/display_logbuffer/dump.mk
 include device/google/gs-common/gxp/gxp.mk
 include device/google/gs-common/camera/dump.mk
 include device/google/gs-common/radio/dump.mk
@@ -40,6 +41,7 @@ include device/google/gs-common/widevine/widevine.mk
 include device/google/gs-common/sota_app/factoryota.mk
 include device/google/gs-common/misc_writer/misc_writer.mk
 include device/google/gs-common/gyotaku_app/gyotaku.mk
+include device/google/gs-common/bootctrl/bootctrl_aidl.mk
 
 include device/google/zuma/dumpstate/item.mk
 
@@ -196,7 +198,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Carrier configuration default location
 PRODUCT_PROPERTY_OVERRIDES += \
-	persist.vendor.radio.config.carrier_config_dir=/mnt/vendor/modem_img/images/default/confpack
+	persist.vendor.radio.config.carrier_config_dir=/vendor/firmware/carrierconfig
 
 PRODUCT_PROPERTY_OVERRIDES += \
 	telephony.active_modems.max_count=2
@@ -819,11 +821,12 @@ endif
 $(call inherit-product, system/core/trusty/trusty-storage.mk)
 $(call inherit-product, system/core/trusty/trusty-base.mk)
 
-# Trusty unit test tool
+# Trusty unit test tool and code coverage tool
 PRODUCT_PACKAGES_DEBUG += \
    trusty-ut-ctrl \
    tipc-test \
    trusty_stats_test \
+   trusty-coverage-controller \
 
 include device/google/gs101/confirmationui/confirmationui.mk
 
@@ -923,11 +926,6 @@ endif
 PRODUCT_PACKAGES += \
 	ImsMediaService \
 	libimsmedia
-
-# Boot Control HAL
-PRODUCT_PACKAGES += \
-	android.hardware.boot-service.default-zuma\
-	android.hardware.boot-service.default_recovery-zuma
 
 # Exynos RIL and telephony
 # Multi SIM(DSDS)
