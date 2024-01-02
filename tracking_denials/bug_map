@@ -9,7 +9,6 @@ insmod-sh insmod-sh key b/274374722
 modem_svc_sit vendor_volte_mif_off file b/316816737
 mtectrl unlabeled dir b/264483752
 pixelstats_vendor sysfs file b/299553682
-surfaceflinger selinuxfs file b/313804706
 system_server sysfs_batteryinfo file b/294967729
 system_suspend sysfs_batteryinfo dir b/317316633
 twoshay chre_socket sock_file b/315104508
