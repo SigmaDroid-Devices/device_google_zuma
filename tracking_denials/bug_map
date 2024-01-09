@@ -1,6 +1,4 @@
 dumpstate app_zygote process b/288049050
-hal_face_default traced_producer_socket sock_file b/305600857
-hal_radioext_default debugfs_trace_marker file b/316991604
 hal_radioext_default radio_vendor_data_file file b/312590044
 hal_vibrator_default default_android_service service_manager b/314054292
 incidentd debugfs_wakeup_sources file b/288049561
