@@ -549,7 +549,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
 	android.hardware.graphics.mapper@4.0-impl \
-	android.hardware.graphics.allocator-V2-service
+	android.hardware.graphics.allocator-V1-service
 
 PRODUCT_PACKAGES += \
 	android.hardware.memtrack-service.pixel \
@@ -714,7 +714,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.sys.sf.native_mode=2 \
 	persist.sys.sf.color_mode=9
 PRODUCT_COPY_FILES += \
-	device/google/zuma/display/display_colordata_cal0.pb:$(TARGET_COPY_OUT_VENDOR)/etc/display_colordata_cal0.pb
+	device/google/zuma/display/display_colordata_cal0.pb:$(TARGET_COPY_OUT_VENDOR)/etc/display_colordata_cal0.pb \
+	device/google/zuma/display/display_colordata_cal2.pb:$(TARGET_COPY_OUT_VENDOR)/etc/display_colordata_cal2.pb
 
 # limit DPP downscale ratio
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += vendor.hwc.dpp.downscale=4
