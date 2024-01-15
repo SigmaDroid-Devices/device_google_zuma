@@ -652,7 +652,7 @@ void addPixelStateResidencyDataProvider(std::shared_ptr<PowerStats> p) {
 
 void addDisplayMRR(std::shared_ptr<PowerStats> p) {
     p->addStateResidencyDataProvider(std::make_unique<DisplayMrrStateResidencyDataProvider>(
-            "Display", "/sys/class/backlight/panel0-backlight/"));
+            "Display", "/sys/class/drm/card0/device/primary-panel/"));
 }
 
 void addZumaCommonDataProviders(std::shared_ptr<PowerStats> p) {
