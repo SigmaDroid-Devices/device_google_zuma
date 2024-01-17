@@ -23,11 +23,6 @@ PRODUCT_COPY_FILES += \
     device/google/zuma/product-permissions-stock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/product-permissions-stock.xml
 endif
 
-# GMS
-ifeq ($(WITH_GMS),true)
-GMS_MAKEFILE=gms_64bit_only.mk
-endif
-
 # Google Assistant
 PRODUCT_PRODUCT_PROPERTIES += ro.opa.eligible_device=true
 
