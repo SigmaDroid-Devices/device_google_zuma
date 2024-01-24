@@ -346,6 +346,7 @@ void dumpLn8411() {
 void dumpBatteryHealth() {
     const char* batteryHealth [][2] {
             {"Battery Health", "/sys/class/power_supply/battery/health_index_stats"},
+            {"Battery Health SoC Residency", "/sys/class/power_supply/battery/swelling_data"},
             {"BMS", "/dev/logbuffer_ssoc"},
             {"TTF", "/dev/logbuffer_ttf"},
             {"TTF details", "/sys/class/power_supply/battery/ttf_details"},
