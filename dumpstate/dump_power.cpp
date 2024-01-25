@@ -152,26 +152,6 @@ void dumpAcpmStats() {
     readContentsOfDir(acpmTitle, acpmDir, statsSubStr, true, true);
 }
 
-void dumpTcpmPsyUevent() {
-    const char* tcpmPsy = "tcpm-source-psy-";
-    DIR *dir = opendir("/sys/class/power_supply/");
-    struct dirent *entry;
-
-    if (dir == NULL)
-        return;
-
-    while ((entry = readdir(dir)) != NULL) {
-        if (std::string::npos != std::string(entry->d_name).find(tcpmPsy)) {
-            std::string fullPath("/sys/class/power_supply/" + (const std::string)entry->d_name +
-                                 "/uevent");
-            dumpFileContent("Power supply property tcpm", fullPath.c_str());
-            break;
-        }
-    }
-
-    closedir(dir);
-}
-
 void dumpPowerSupplyStats() {
     const char* dumpList[][2] = {
             {"CPU PM stats", "/sys/devices/system/cpu/cpupm/cpupm/time_in_state"},
@@ -182,6 +162,7 @@ void dumpPowerSupplyStats() {
             {"Power supply property gcpm_pps", "/sys/class/power_supply/gcpm_pps/uevent"},
             {"Power supply property main-charger", "/sys/class/power_supply/main-charger/uevent"},
             {"Power supply property dc-mains", "/sys/class/power_supply/dc-mains/uevent"},
+            {"Power supply property tcpm", "/sys/class/power_supply/tcpm-source-psy-11-0025/uevent"},
             {"Power supply property usb", "/sys/class/power_supply/usb/uevent"},
             {"Power supply property wireless", "/sys/class/power_supply/wireless/uevent"},
     };
@@ -189,8 +170,6 @@ void dumpPowerSupplyStats() {
     for (const auto &row : dumpList) {
         dumpFileContent(row[0], row[1]);
     }
-
-    dumpTcpmPsyUevent();
 }
 
 void dumpMaxFg() {
