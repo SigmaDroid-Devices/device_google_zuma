@@ -1,1 +1,3 @@
 ro.soc.model=Tensor G3
+
+ro.surface_flinger.enable_frame_rate_override=false
