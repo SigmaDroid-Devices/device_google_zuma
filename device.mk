@@ -980,6 +980,9 @@ endif
 # modem logging binary/configs
 PRODUCT_PACKAGES += modem_logging_control
 
+# libeomservice_proxy binary/configs
+PRODUCT_PACKAGES += liboemservice_proxy_default
+
 # PILOT SCENARIOS
 PRODUCT_PACKAGES += \
 	Pixel_stability.cfg \
