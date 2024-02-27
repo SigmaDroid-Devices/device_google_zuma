@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+PRODUCT_USE_SCUDO := true
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += device/google/zuma/overlay-lineage
 
