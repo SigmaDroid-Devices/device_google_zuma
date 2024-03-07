@@ -17,7 +17,6 @@ TARGET_KERNEL_SOURCE := kernel/google/shusky/husky
 # Manifests
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/lineage/config/device_framework_matrix.xml
 DEVICE_MANIFEST_FILE += \
-    device/google/zuma/android.hardware.security.rkp-service.citadel.xml \
     device/google/zuma/manifest_radio_ds.xml
 
 # Partitions
