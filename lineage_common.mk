@@ -28,9 +28,6 @@ PRODUCT_COPY_FILES += \
     device/google/zuma/product-permissions-stock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/product-permissions-stock.xml
 endif
 
-# Lineage Health
-include hardware/google/pixel/lineage_health/device.mk
-
 # Linker config
 PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
     device/google/zuma/linker.config.json
