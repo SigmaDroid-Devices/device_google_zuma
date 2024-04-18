@@ -20,6 +20,12 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay
 
+ifneq ($(BOARD_WITHOUT_RADIO),true)
+# product permissions XML from stock
+PRODUCT_COPY_FILES += \
+    device/google/zuma/product-permissions-stock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/product-permissions-stock.xml
+endif
+
 # Google Assistant
 PRODUCT_PRODUCT_PROPERTIES += ro.opa.eligible_device=true
 
