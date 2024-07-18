@@ -1,6 +1,7 @@
 [
   {
-    "repository": "android_device_google_gs101",
-    "target_path": "device/google/gs101"
+    "repository": "device_google_gs101",
+    "target_path": "device/google/gs101",
+    "remote": "sigma-devices"
   }
 ]
