@@ -6,3 +6,15 @@ binder_call(system_server, con_monitor_app);
 allow system_server arm_mali_platform_service:service_manager find;
 allow system_server proc_irq:dir search;
 allow system_server proc_touch_gti:dir search;
+
+# Allow system_server to write to audioserver_tmpfs
+allow system_server audioserver_tmpfs:file write;
+
+# Allow system_server to write to mediaextractor_tmpfs
+allow system_server mediaextractor_tmpfs:file write;
+
+# Allow system_server to write to mediaserver_tmpfs
+allow system_server mediaserver_tmpfs:file write;
+
+# Allow system_server to write to app_zygote_tmpfs
+allow system_server app_zygote_tmpfs:file write;
