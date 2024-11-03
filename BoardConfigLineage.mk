@@ -5,11 +5,6 @@
 #
 BUILD_BROKEN_DUP_RULES := true
 
-TARGET_FORCE_PREBUILT_KERNEL := true
-TARGET_KERNEL_CONFIG := cloudripper_gki_defconfig
-TARGET_NO_KERNEL_OVERRIDE := true
-TARGET_KERNEL_SOURCE := kernel/google/shusky/husky
-
 # Manifests
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/lineage/config/device_framework_matrix.xml
 DEVICE_MANIFEST_FILE += \
