@@ -39,8 +39,8 @@
         <item>device_personalization_services/Captions__enable_augmented_modality_input=true</item>
         <item>device_personalization_services/Captions__enable_augmented_modality_language_detection=true</item>
         <item>device_personalization_services/Captions__enable_augmented_music=true</item>
-        <item>device_personalization_services/Captions__enable_clearcut_logging=true</item>
-        <item>device_personalization_services/Captions__enable_drag_and_double_tap_to_resize=false</item>
+        <!-- <item>device_personalization_services/Captions__enable_clearcut_logging=true</item> -->
+        <item>device_personalization_services/Captions__enable_drag_and_double_tap_to_resize=true</item>
         <item>device_personalization_services/Captions__enable_ec_integration=false</item>
         <item>device_personalization_services/Captions__enable_language_detection=true</item>
         <item>device_personalization_services/Captions__enable_new_model_version_advanced_2023=true</item>
@@ -57,8 +57,9 @@
         <item>device_personalization_services/Captions__new_model_version=20210623</item>
         <item>device_personalization_services/Captions__new_model_version_advanced_2023=20230808</item>
         <item>device_personalization_services/Captions__speech_threshold=0.2</item>
-        <item>device_personalization_services/Captions__supported_languages=en-US;fr-FR;it-IT;de-DE;ja-JP;es-ES;cmn-Hant-TW;hi-IN</item>
-        <item>device_personalization_services/Captions__supported_languages_beta_quality=ja-JP</item>
+        <item>device_personalization_services/Captions__support_lang_id_disabled_after_dismissals=true</item>
+        <item>device_personalization_services/Captions__supported_languages=en-US;fr-FR;it-IT;de-DE;ja-JP;es-ES;cmn-Hant-TW;hi-IN;pt-BR;tr-TR;pl-PL;cmn-Hans-CN;ko-KR;ru-RU;vi-VN</item>
+        <item>device_personalization_services/Captions__supported_languages_beta_quality=ja-JP;pt-BR;tr-TR;pl-PL;cmn-Hans-CN;ko-KR;ru-RU;vi-VN</item>
         <item>device_personalization_services/Captions__surface_sound_events=true</item>
         <item>device_personalization_services/Captions__text_transform_augmented_input=true</item>
         <item>device_personalization_services/Captions__visibility_playing_duration_millis=5000</item>
@@ -113,7 +114,6 @@
         <item>device_personalization_services/Attention__proximity_sensor_enabled=false</item>
 
         <!-- Translation -->
-        <item>device_personalization_services/SimpleStorage__disable_live_translate_dao_provider=false</item>
         <item>device_personalization_services/Translate__app_blocklist=com.google.android.talk</item>
         <item>device_personalization_services/Translate__blue_chip_translate_enabled=true</item>
         <item>device_personalization_services/Translate__characterset_lang_detection_enabled=true</item>
@@ -140,11 +140,11 @@
         <!-- Recents text selection (for Pixel Launcher users) -->
         <item>device_personalization_services/Overview__enable_barcode_detection=false</item>
         <item>device_personalization_services/Overview__enable_image_search=false</item>
-        <item>device_personalization_services/Overview__enable_lens_r_overview_long_press=true</item>
-        <item>device_personalization_services/Overview__enable_lens_r_overview_select_mode=true</item>
-        <item>device_personalization_services/Overview__enable_lens_r_overview_translate_action=true</item>
         <item>device_personalization_services/Overview__enable_image_selection=true</item>
         <item>device_personalization_services/Overview__enable_japanese_ocr=true</item>
+        <item>device_personalization_services/Overview__enable_lens_r_overview_long_press=true</item>
+        <item>device_personalization_services/Overview__enable_lens_r_overview_select_mode=true</item>
+        <item>device_personalization_services/Overview__enable_lens_r_overview_translate_action=false</item>
         <item>device_personalization_services/Overview__enable_overview=true</item>
         <item>device_personalization_services/Overview__enable_pir_clearcut_logging=true</item>
         <item>device_personalization_services/Overview__enable_pir_westworld_logging=true</item>
